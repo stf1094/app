@@ -1,0 +1,24 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window",
+},
+"#TableView_1": {
+},
+".recent-cover": {
+	"image": "/images/iphone/recent-cover.png"
+},
+".recent-cover[platform=ios formFactor=tablet]": {
+	"image": "/images/ipad/recent-cover-ipad.png"
+},
+".rightArrow": {
+	"image": "images/iphone/arrow-right.png",
+	"height": "30px",
+	"width": "30px"
+},
+".time-day": {
+	"left": "10"
+},
+".time-day[platform=ios formFactor=tablet]": {
+	"left": "375"
+},

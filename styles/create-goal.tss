@@ -1,0 +1,44 @@
+".container": {},
+"#Window_1": {
+	"title": "Window"
+},
+".create-goal-title": {
+	"top": "15%",
+	"left": "25"
+},
+".create-goal-title[platform=ios formFactor=tablet]": {
+	"top": "20%",
+	"left": "7%"
+},
+".create-goal-subtitle": {
+	"left": "25"
+},
+".create-goal-subtitle[platform=ios formFactor=tablet]": {
+	"left": "7%"
+},
+".textfield-create-goal": {
+	"width": "600px",
+	"height": "100px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10"
+},
+".textfield-create-goal[platform=ios formFactor=tablet]": {
+	"width": "84%",
+	"height": "100px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10",
+	"left": "7%"
+},
+".create-goal-title[platform=android]": {
+	"top": "12%",
+	"left": "7%"
+},
+".textfield-create-goal[platform=android]": {
+	"width": "84%",
+	"height": "175px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10",
+	"left": "7%",
+	"color": "black"
+	
+}

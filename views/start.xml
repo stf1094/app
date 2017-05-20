@@ -1,0 +1,17 @@
+<Alloy>
+    <Window id="start" backgroundColor="#193441">
+        <View class="form2 bg-white vgroup borderRadius10">
+            <Label class="h2 start-title" width="85%">When would you like to start?</Label>
+            <View class="hgroup size choose-start-date" top="20" width="85%">
+                <Label class="h5" text="Start Date"/>
+                <ImageView class="calendar-icon-square" image="/images/iphone/calendar-icon.png" onClick="getStartDate"/>
+                <TextField class="textfield-date" id="txtDate"/>
+            </View>
+            <View class="hgroup two-buttons" height="13.5%" top="25">
+                <Button class="btn-form2" height="100%">Back</Button>
+                <Button class="btn-form2" height="100%" left="20" onClick="navNext">Next</Button>
+            </View>
+        </View>
+        <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>
+    </Window>
+</Alloy>

@@ -1,0 +1,51 @@
+<Alloy>
+    <Window id="Window_1" title="Recent" class="vgroup">
+    	<ImageView class="top size" image="/images/iphone/recent-cover.png"></ImageView>
+        <TableView id="TableView_1">
+            <TableViewRow class="hgroup" height="140px">
+                <ImageView class="top-buffer left-buffer" height="100px" image="/images/iphone/project-shuriken.png" width="100px"/>
+                <View class="vgroup" width="210">
+                    <Label class="h5 top-buffer left-buffer">Stefan Forsberg</Label>
+                    <Label class="h6 grey left-buffer" top="5">This this the most recent message</Label>
+                </View>
+                <View class="hgroup time-day">
+                	<Label class="h6 grey left-buffer top-buffer">TimeDay</Label>
+                	<ImageView class=" left-buffer top-buffer rightArrow"></ImageView>
+                </View>
+            </TableViewRow>
+            <TableViewRow class="hgroup" height="140px">
+                <ImageView class="top-buffer left-buffer" height="100px" image="/images/iphone/project-shuriken.png" width="100px"/>
+                <View class="vgroup" width="210">
+                    <Label class="h5 top-buffer left-buffer">Stefan Forsberg</Label>
+                    <Label class="h6 grey left-buffer" top="5">This this the most recent message</Label>
+                </View>
+                <View class="hgroup time-day">
+                	<Label class="h6 grey left-buffer top-buffer">TimeDay</Label>
+                	<ImageView class=" left-buffer top-buffer rightArrow"></ImageView>
+                </View>
+            </TableViewRow>
+            <TableViewRow class="hgroup" height="140px">
+                <ImageView class="top-buffer left-buffer" height="100px" image="/images/iphone/project-shuriken.png" width="100px"/>
+                <View class="vgroup" width="210">
+                    <Label class="h5 top-buffer left-buffer">Stefan Forsberg</Label>
+                    <Label class="h6 grey left-buffer" top="5">This this the most recent message</Label>
+                </View>
+                <View class="hgroup time-day">
+                	<Label class="h6 grey left-buffer top-buffer">TimeDay</Label>
+                	<ImageView class=" left-buffer top-buffer rightArrow"></ImageView>
+                </View>
+            </TableViewRow>
+            <TableViewRow class="hgroup" height="140px">
+                <ImageView class="top-buffer left-buffer" height="100px" image="/images/iphone/project-shuriken.png" width="100px"/>
+                <View class="vgroup" width="210">
+                    <Label class="h5 top-buffer left-buffer">Stefan Forsberg</Label>
+                    <Label class="h6 grey left-buffer" top="5">This this the most recent message</Label>
+                </View>
+                <View class="hgroup time-day">
+                	<Label class="h6 grey left-buffer top-buffer">TimeDay</Label>
+                	<ImageView class=" left-buffer top-buffer rightArrow"></ImageView>
+                </View>
+            </TableViewRow>
+        </TableView>
+    </Window>
+</Alloy>

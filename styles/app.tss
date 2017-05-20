@@ -1,0 +1,923 @@
+/**
+* 	Reset - Standardize behavior across platforms and set better defaults
+*  courtesy of Tony Lukasavage
+*  https://gist.github.com/tonylukasavage/6009423
+*
+*/
+"Label[platform=android]": {
+	"color": "#000'/"
+},
+"Window": {
+	"backgroundColor": "#fff",
+	"titleAttributes": {color:"#fff"},
+	"titleImage": "/images/ninja-head-orange.png"
+},
+"Window[platform=android]": {
+	"modal": "false",
+	"navBarHidden": "true",
+	"fullscreen": "true",
+	"navigationBarColor": "#fff",
+	"titleImage": "/images/ninja-head-orange.png"
+},
+"TextField": {
+	"borderStyle": Ti.UI.INPUT_BORDERSTYLE_ROUNDED
+},
+"ImageView": {
+	"preventDefaultImage": "true"
+},
+/**************************************************************************
+* General Helper and Utility Styles
+*************************************************************************/
+/**
+* 	Layouts & Fills
+*/
+".vgroup": {
+	"layout": "vertical"
+},
+".hgroup": {
+	"layout": "horizontal"
+},
+".buffer": {
+	"top": "10",
+	"left": "10",
+	"right": "10",
+	"bottom": "10"
+},
+".top-buffer": {
+	"top": "10"
+},
+".left-buffer": {
+	"left": "10"
+},
+".right-buffer": {
+	"right": "10"
+},
+".bottom-buffer": {
+	"bottom": "10"
+},
+".fill": {
+	"height": Ti.UI.FILL,
+	"width": Ti.UI.FILL
+},
+".span-width": {
+	"width": "100%",
+	"height": Ti.UI.SIZE
+},
+".span-height": {
+	"height": "100%",
+	"width": Ti.UI.SIZE
+},
+".size": {
+	"height": Ti.UI.SIZE,
+	"width": Ti.UI.SIZE
+},
+".bottom": {
+	"bottom": "0"
+},
+".top": {
+	"top": "0"
+},
+".right": {
+	"right": "0"
+},
+".left": {
+	"left": "0"
+},
+/**
+* 	Rounded
+*/
+".rounded": {
+	"borderRadius": "7"
+},
+/**
+* Common Sizes
+*/
+".thumbnail": {
+	"height": "75",
+	"width": "75"
+},
+".square100": {
+	"height": "100",
+	"width": "100"
+},
+".square150": {
+	"height": "150",
+	"width": "150"
+},
+".square200": {
+	"height": "200",
+	"width": "200"
+},
+".square250": {
+	"height": "250",
+	"width": "250"
+},
+/**
+* 	Typography
+*/
+".h1": {
+	"font": {fontSize:36}
+},
+".h1[platform=blackberry]": {
+	"font": {fontSize:30}
+},
+".h2": {
+	"font": {fontSize:30}
+},
+".h2[platform=blackberry]": {
+	"font": {fontSize:24}
+},
+".h3": {
+	"font": {fontSize:24}
+},
+".h3[platform=blackberry]": {
+	"font": {fontSize:18}
+},
+".h4": {
+	"font": {fontSize:18}
+},
+".h4[platform=blackberry]": {
+	"font": {fontSize:14}
+},
+".h5": {
+	"font": {fontSize:14}
+},
+".h5[platform=blackberry]": {
+	"font": {fontSize:12}
+},
+".h6": {
+	"font": {fontSize:12}
+},
+".h6[platform=blackberry]": {
+	"font": {fontSize:10}
+},
+".normal-text": {
+	"font": {fontSize:14}
+},
+".small-text": {
+	"font": {fontSize:10}
+},
+".large-text": {
+	"font": {fontSize:18}
+},
+/**
+* 	Visibility
+*/
+".hide": {
+	"visible": "false"
+},
+".transparent": {
+	"opacity": "0.25"
+},
+/*
+* Color Classes for Labels
+*/
+".white": {
+	"color": "#fff"
+},
+".black": {
+	"color": "#000"
+},
+".gray": {
+	"color": "#666"
+},
+".red": {
+	"color": "#C41230"
+},
+/**
+* 	Alert / Notification Styles
+*  These should be used in conjunction with Views and/or labels
+*/
+".success": {
+	"color": "#468847",
+	"backgroundColor": "#dff0d8",
+	"borderColor": "#d6e9c6",
+	"border": "1"
+},
+".error": {
+	"color": "#b94a48",
+	"backgroundColor": "#f2dede",
+	"borderColor": "#eed3d7",
+	"border": "1"
+},
+".warn": {
+},
+".info": {
+	"color": "#3a87ad",
+	"backgroundColor": "#d9edf7",
+	"borderColor": "#bce8f1",
+	"border": "1"
+},
+/**
+* 	Borders and Lines
+*/
+".border-dark": {
+	"border": "6",
+	"borderColor": "#666"
+},
+".border-dark-thin": {
+	"border": "2",
+	"borderColor": "#666"
+},
+".border-dark-thick": {
+	"border": "10",
+	"borderColor": "#666"
+},
+".border-light": {
+	"border": "6",
+	"borderColor": "#ececec"
+},
+".border-light-thin": {
+	"border": "2",
+	"borderColor": "#ececec"
+},
+".border-light-thick": {
+	"border": "10",
+	"borderColor": "#ececec"
+},
+".black-line": {
+	"backgroundColor": "#000",
+	"width": Ti.UI.FILL,
+	"height": "1"
+},
+".gray-line": {
+	"backgroundColor": "#ececec",
+	"width": Ti.UI.FILL,
+	"height": "1"
+},
+".white-line": {
+	"backgroundColor": "#fff",
+	"width": Ti.UI.FILL,
+	"height": "1"
+},
+".icon": {
+	"font": {fontFamily:'fontawesome',fontSize:20}
+},
+".no-touch": {
+	"touchEnabled": "false"
+},
+".fa-plus-circle": {
+	"text": "\uf055"
+},
+".icon-btn": {
+	"height": "60",
+	"width": "60",
+	"color": "#c77b06",
+	"borderRadius": "30",
+	"borderWidth": "2",
+	"borderColor": "#c77b06",
+	"backgroundColor": "#ffc060",
+	"textAlign": "center",
+	"font": {fontSize:24},
+	"left": "10%"
+},
+"#lblproject": {
+	"font": {fontSize:'24',fontFamily:'fontawesome-webfont',fontStyle:'normal',fontWeight:'bold'},
+	"top": "0"
+},
+"#wrapper1": {
+	"backgroundColor": "#ffffff"
+},
+"#View_1": {
+	"bottom": "20",
+	"center": "true",
+	"left": "20",
+	"width": "325",
+	"backgroundColor": "#ffffff"
+},
+"#lblProjectType": {
+	"text": "Which type of project are you creating?",
+	"font": {fontSize:12},
+	"left": "8.46%",
+	"top": "3.67%",
+	"height": "7.24%",
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+	"color": "#444444",
+	"width": "83.69%"
+},
+"#btnCaptureProjectName": {
+	"title": "NEXT",
+	"backgroundColor": "#f7941d",
+	"left": "6.95%",
+	"top": "29.88%",
+	"color": "#f9f9f9",
+	"font": {fontSize:'24',fontFamily:'fontawesome-webfont',fontStyle:'normal',fontWeight:'normal'},
+	"height": "6.60%",
+	"selectedColor": "#ffffff",
+	"width": "88.82%"
+},
+"#wrapper2": {
+	"backgroundColor": "#193441"
+},
+"#txtProjectName": {
+	"left": "7.25%",
+	"top": "10.82%",
+	"height": "8.34%",
+	"width": "88.52%",
+	"backgroundColor": "#edf0f1",
+	"color": "#1b1b1c",
+	"borderWidth": "1"
+},
+"#btnPersonal": {
+	"title": "PERSONAL",
+	"backgroundColor": "#8dc63f",
+	"left": "6.95%",
+	"top": "12.28%",
+	"color": "#f9f9f9",
+	"font": {fontSize:'24',fontFamily:'fontawesome-webfont',fontStyle:'normal',fontWeight:'normal'},
+	"height": "6.60%",
+	"selectedColor": "#ffffff",
+	"width": "88.82%"
+},
+"#btnProfessional": {
+	"title": "PROFESSIONAL",
+	"backgroundColor": "#8dc63f",
+	"left": "6.95%",
+	"top": "19.89%",
+	"color": "#f9f9f9",
+	"font": {fontSize:'24',fontFamily:'fontawesome-webfont',fontStyle:'normal',fontWeight:'normal'},
+	"height": "6.60%",
+	"selectedColor": "#ffffff",
+	"width": "88.82%"
+},
+"#ninjaHeads": {
+},
+"#btnCancel": {
+	"title": "Cancel",
+	"backgroundColor": "#edf0f1",
+	"left": "0.00%",
+	"top": "92.12%",
+	"color": "#f9f9f9",
+	"font": {fontSize:'24',fontFamily:'fontawesome-webfont',fontStyle:'normal',fontWeight:'normal'},
+	"height": "7.88%",
+	"selectedColor": "#ffffff",
+	"width": "100.00%",
+	"borderColor": "#000000",
+	"layout": "absolute",
+	"bottom": "0"
+},
+"#WebView_1": {
+},
+"#wrapper": {
+},
+"#ActivityIndicator_1": {
+	"width": "20dp",
+	"height": "20dp",
+	"left": "53%",
+	"top": "5%"
+},
+"#ImageView_1": {
+	"left": "38%",
+	"top": "68%",
+	"image": "/iphone/appicon-60@3x.png"
+},
+"#Tab_1": {
+},
+"#Window_2": {
+	"title": "Window"
+},
+"#View_1": {
+	"backgroundColor": "#ffffff",
+	"center": "100%",
+	"height": "45.70%",
+	"left": "4.93%",
+	"top": "17.03%",
+	"width": "90.00%",
+	"borderRadius": "10"
+},
+".header[platform=ios]": {
+	"left": "10%",
+	"top": "16.5%",
+	"color": "black"
+},
+".header[platform=android]": {
+	"left": "10%",
+	"top": "16.5%",
+	"color": "black"
+},
+".topCircle": {
+	"left": "40%",
+	"top": "2.25%",
+	"height": "12%",
+	"width": "21%"
+},
+".form1": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "65%",
+	"width": "90%"
+},
+".form1[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "40%",
+	"width": "90%"
+},
+".form2": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "50%",
+	"width": "90%"
+},
+".form2[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "35%",
+	"width": "90%"
+},
+".form3": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "55%",
+	"width": "90%"
+},
+".form3[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "40%",
+	"width": "90%"
+},
+".form4": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "90%",
+	"width": "90%"
+},
+".form4[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "70%",
+	"width": "90%"
+},
+".dojo-cover": {
+	"image": "/images/iphone/dojo-cover.png",
+	"width": "100%",
+	"height": "100%"
+},
+".dojo-bottom": {
+	"image": "/images/iphone/dojo-bottom.png",
+	"width": "100%",
+	"height": "100%"
+},
+/*Buttons*/
+".button1": {
+	"left": "9.78%",
+	"width": "80%",
+	"height": "12%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"selectedBackgroundColor": "#e5790e"
+},
+".button1-full": {
+	"left": "9.78%",
+	"width": "90%",
+	"height": "10%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"selectedBackgroundColor": "#e5790e"
+},
+".button2": {
+	"height": "8%",
+	"left": "10%",
+	"selectedColor": "#193341",
+	"width": "80%",
+	"font": {fontSize:'20',fontFamily:'sans-serif',fontStyle:'normal',fontWeight:'bold'},
+	"backgroundColor": "#ffffff",
+	"borderColor": "#193341",
+	"borderRadius": "10",
+	"borderWidth": "2",
+	"color": "#193341"
+},
+".button3": {
+	"height": "10%",
+	"width": "80%",
+	"backgroundColor": "#193341",
+	"borderRadius": "10",
+	"color": "white"
+},
+".button-half1": {
+	"height": "10%",
+	"width": "39%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff",
+	"selectedBackgroundColor": "#e5790e"
+},
+".button-half2": {
+	"height": "10%",
+	"width": "39%",
+	"backgroundColor": "#ffffff",
+	"borderRadius": "10",
+	"color": "#193341",
+	"borderColor": "#193341"
+},
+".button-half1-full": {
+	"height": "90px",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".button-half2-full": {
+	"height": "90px",
+	"width": "44%",
+	"backgroundColor": "#ffffff",
+	"borderRadius": "10",
+	"color": "#193341",
+	"borderColor": "#193341"
+},
+".two-buttons": {
+	"left": "20"
+},
+".two-buttons[platform=ios formFactor=tablet]": {
+	"left": "50"
+},
+/*Text for Large Titles*/
+".textfield-large": {
+	"font": {fontSize:'40',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+".textfield-large[platform=ios formFactor=tablet]": {
+	"font": {fontSize:'60',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+/*Text for Forms*/
+".textfield": {
+	"font": {fontSize:'Ti.UI.SIZE',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+	"width": "80%"
+},
+".textfield[platform=ios formFactor=tablet]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT,
+	"width": "80%"
+},
+/*Text (set width in xml)*/
+".textfield-full": {
+	"font": {fontSize:'Ti.UI.SIZE',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+".textfield-full[platform=ios formFactor=tablet]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+".textfield-med-full": {
+	"font": {fontSize:'30',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+},
+".textfield-med-full[platform=ios formFactor=tablet]": {
+	"font": {fontSize:'45',fontFamily:'',fontStyle:'',fontWeight:'normal'}
+},
+/*Textfield with widths (for text entry and forms)*/
+".textfield600": {
+	"width": "600px",
+	"height": "100px",
+	"backgroundColor": "#ececec",
+	"left": "10%",
+	"borderRadius": "10"
+},
+".textfield600[platform=ios formFactor=tablet]": {
+	"width": "80%",
+	"height": "100px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10"
+},
+/*LABELS*/
+".label-center": {
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+".label-center[platform=android]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_CENTER
+},
+".label-left": {
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+".label-left[platform=android]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_LEFT
+},
+".label-right": {
+	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_RIGHT
+},
+".label-right[platform=android]": {
+	"font": {fontSize:'20',fontFamily:'',fontStyle:'',fontWeight:'normal'},
+	"textAlign": Ti.UI.TEXT_ALIGNMENT_RIGHT
+},
+/* Views */
+".view700": {
+	"height": "700px",
+	"width": "750px"
+},
+".view700[platform=ios formFactor=tablet]": {
+	"height": "700px",
+	"width": "850px"
+},
+/*Dashbaord*/
+".db1": {
+	"left": ".25%",
+	"width": "49.5%",
+	"height": "100%"
+},
+".db2": {
+	"width": "49.5%",
+	"height": "100%"
+},
+".db-height": {
+	"height": "33%"
+},
+".db-height[platform=android]": {
+	"height": "33.33%"
+},
+".dashboard": {
+	"height": "75%",
+	"top": "15%"
+},
+".dashboard[platform=android]": {
+	"height": "75%",
+	"top": "15%"
+},
+".db-contacts": {
+	"image": "/images/iphone/db-contacts.png",
+	"selectedImage": "/images/iphone/db-contacts-grey.png"
+},
+".db-contacts[platform=android]": {
+	"image": "/images/android/db-android-contacts.png",
+	"selectedImage": "/images/android/db-android-contacts-grey.png"
+},
+".db-contacts[platform=ios formFactor=tablet]": {
+},
+".db-projects": {
+	"image": "/images/iphone/db-projects.png",
+	"selectedImage": "/images/iphone/db-projects-grey.png"
+},
+".db-projects[platform=android]": {
+	"image": "/images/android/db-android-projects.png",
+	"selectedImage": "/images/android/db-android-projects-grey.png"
+},
+".db-projects[platform=ios formFactor=tablet]": {
+},
+".db-hotlist": {
+	"image": "/images/iphone/db-hotlist-grey.png",
+	"selectedImage": "/images/iphone/db-hotlist-grey.png"
+},
+".db-hotlist[platform=android]": {
+	"image": "/images/android/db-android-hotlist-grey.png",
+	"selectedImage": "/images/android/db-android-hotlist-grey.png"
+},
+".db-hotlist[platform=ios formFactor=tablet]": {
+},
+".db-reporting": {
+	"image": "/images/iphone/db-reporting-grey.png",
+	"selectedImage": "/images/iphone/db-reporting-grey.png"
+},
+".db-reporting[platform=android]": {
+	"image": "/images/android/db-android-reporting-grey.png",
+	"selectedImage": "/images/android/db-android-reporting-grey.png"
+},
+".db-reporting[platform=ios formFactor=tablet]": {
+},
+".db-recent": {
+	"image": "/images/iphone/db-recent-grey.png",
+	"selectedImage": "/images/iphone/db-recent-grey.png"
+},
+".db-recent[platform=android]": {
+	"image": "/images/android/db-android-recent-grey.png",
+	"selectedImage": "/images/android/db-android-recent-grey.png"
+},
+".db-recent[platform=ios formFactor=tablet]": {
+},
+".db-settings": {
+	"image": "/images/iphone/db-settings.png",
+	"selectedImage": "/images/iphone/db-settings-grey.png"
+},
+".db-settings[platform=android]": {
+	"image": "android/db-android-settings.png",
+	"selectedImage": "android/db-android-settings-grey.png"
+},
+".db-settings[platform=ios formFactor=tablet]": {
+},
+".db-calendar": {
+	"image": "/images/iphone/db-calendar.png",
+	"selectedImage": "/images/iphone/db-calendar-grey.png"
+},
+".db-calendar[platform=android]": {
+	"image": "/images/android/db-android-calendar.png",
+	"selectedImage": "/images/android/db-android-calendar-grey.png"
+},
+".db-calendar[platform=ios formFactor=tablet]": {
+},
+/*Messaging Colors*/
+".message-grey": {
+	"backgroundColor": "#ececec",
+	"borderRadius": "10",
+	"color": "black",
+	"width": "70%"
+},
+".message-orange": {
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"width": "70%"
+},
+".bg-white": {
+	"backgroundColor": "white"
+},
+".btn-form1": {
+	"height": "10.38%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".btn-form1[platform=android]": {
+	"height": "12%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".btn-blue-form1": {
+	"height": "10.38%",
+	"width": "44%",
+	"backgroundColor": "white",
+	"borderRadius": "10",
+	"color": "#193441",
+	"borderColor": "#193441",
+	"borderWidth": "2"
+},
+".btn-blue-form1[platform=android]": {
+	"height": "12%",
+	"width": "44%",
+	"backgroundColor": "white",
+	"borderRadius": "10",
+	"color": "#ffffff",
+	"color": "#193441",
+	"borderColor": "#193441",
+	"borderWidth": "2"
+},
+".btn-form2": {
+	"height": "13.5%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".btn-form2[platform=android]": {
+	"height": "11.72%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".btn-form3": {
+	"height": "12.26%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".btn-form3[platform=android]": {
+	"height": "10.65%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".btn-form4": {
+	"height": "7.5%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".btn-form4[platform=android]": {
+	"height": "6.51%",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".two-buttons": {
+	"left": "20"
+},
+".two-buttons[platform=ios formFactor=tablet]": {
+	"left": "50"
+},
+".form2": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "50%",
+	"width": "90%"
+},
+".form2[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"right": "5%",
+	"top": "8%",
+	"height": "35%",
+	"width": "90%"
+},
+".borderRadius10": {
+	"borderRadius": "10"
+},
+".borderRadius20": {
+	"borderRadius": "20"
+},
+".add-contacts-title[platform=android]": {
+	"top": "6%",
+	"left": "7%"
+},
+".topCircle[platform=android]": {
+	"left": "43%",
+	"top": "3.5%",
+	"height": "200px",
+	"width": "200px",
+	"image": "/images/iphone/project-shuriken.png"
+},
+".button2[platform=android]": {
+	"height": "150px",
+	"left": "10%",
+	"selectedColor": "#193341",
+	"width": "80%",
+	"backgroundColor": "#ffffff",
+	"borderColor": "#193341",
+	"borderRadius": "10",
+	"borderWidth": "2",
+	"color": "#193341"
+},
+".button-half1-full[platform=android]": {
+	"height": "150px",
+	"width": "44%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#ffffff"
+},
+".h1[platform=android]": {
+	"font": {fontSize:36},
+	"color": "black"
+},
+".h2[platform=android]": {
+	"font": {fontSize:30},
+	"color": "black"
+},
+".h3[platform=android]": {
+	"font": {fontSize:24},
+	"color": "black"
+},
+".h4[platform=android]": {
+	"font": {fontSize:18},
+	"color": "black"
+},
+".h5[platform=android]": {
+	"font": {fontSize:14},
+	"color": "black"
+},
+".h6[platform=android]": {
+	"font": {fontSize:12},
+	"color": "black"
+},
+".textfield600[platform=android]": {
+	"width": "80%",
+	"height": "175px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10",
+	"color": "black"
+},
+".db1": {
+	"left": ".25%",
+	"width": "49.5%",
+	"height": "100%"
+},
+".db2": {
+	"width": "49.5%",
+	"height": "100%"
+},
+".side-scroll[platform=android]": {
+	"width": "800"
+},
+".bg-orange": {
+	"backgroundColor": "#f7941d"
+},
+".grey": {
+	"color": "#9d9d9d"
+},
+".grey[platform=android]": {
+	"color": "#9d9d9d"
+},
+".submit-btn": {
+	"left": "68%",
+	"color": "black"
+}

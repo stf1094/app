@@ -1,0 +1,37 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window"
+},
+".confirm-contacts-title": {
+	"top": "14%",
+	"left": "10%"
+},
+".confirm-contacts-title[platform=android]": {
+	"top": "15%",
+	"left": "10%"
+},
+".btn2": {
+	"height": "13.5%",
+	"left": "10%",
+	"selectedColor": "#193341",
+	"width": "80%",
+	"backgroundColor": "#ffffff",
+	"borderColor": "#193341",
+	"borderRadius": "10",
+	"borderWidth": "2",
+	"color": "#193341"
+},
+".btn2[platform=android]": {
+	"height": "11.72%",
+	"left": "10%",
+	"selectedColor": "#193341",
+	"width": "80%",
+	"backgroundColor": "#ffffff",
+	"borderColor": "#193341",
+	"borderRadius": "10",
+	"borderWidth": "2",
+	"color": "#193341"
+},
+"#lblReality": {
+}

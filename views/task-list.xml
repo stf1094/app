@@ -1,0 +1,21 @@
+<Alloy>
+    <Window id="Window_1" title="Tasks">
+        <View id="View_1">
+            <Label id="Label_1">Project Name</Label>/&amp;amp;gt;
+        </View>
+        <View id="View_2">
+            <Button id="Button_1">Add Task</Button>/&amp;gt;
+        <TextField id="TextField_1"/>
+        </View>
+        <ListView top="22%">
+            <ListSection>
+                <ListItem title="Task 1"/>
+                <ListItem title="Task 2"/>
+                <ListItem title="Task 3"/>
+                <ListItem title="Task 4"/>
+                <ListItem title="Task 5"/>
+                <ListItem title="Task 6"/>
+            </ListSection>
+        </ListView>
+    </Window>
+</Alloy>

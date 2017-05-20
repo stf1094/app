@@ -1,0 +1,18 @@
+<Alloy>
+    <!-- Default App Window -->
+    <Require id="index" platform="android,windows" src="login"/>
+    <Require id="androidDB" platform="android,windows" src="dashboard"/>
+    <!-- iOS Window -->
+    <NavigationWindow class="container" id="nav" platform="ios">
+        <Require src="login"/>
+    </NavigationWindow>
+    <NavigationWindow class="container" id="iosDB" platform="ios">
+        <Require src="dashboard"/>
+    </NavigationWindow>
+    <!-- MobileWeb -->
+    <Window platform="mobileweb">
+        <NavigationGroup class="container" id="nav">
+            <Require src="dashboard"/>
+        </NavigationGroup>
+    </Window>
+</Alloy>

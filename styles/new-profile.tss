@@ -1,0 +1,64 @@
+
+".container" : {
+  
+},
+"#profileImage": {
+	"height": "150px",
+	"width": "150px"
+},
+"#profileImage[platform=android]": {
+	"height": "250px",
+	"width": "250px"
+},
+".textfield-profile": {
+	"width": "70%",
+	"height": "90px",
+	"borderRadius": "10",
+	"borderColor": "#ececec",
+	"backgroundColor": "white",
+	"color": "#444444",
+	"top": "15",
+	"left": "15",
+	"hintText": "Message"
+}, 
+".textfield-profile[platform=ios formFactor=tablet]": {
+	"width": "70%",
+	"height": "90px",
+	"borderRadius": "10",
+	"borderColor": "#ececec",
+	"backgroundColor": "white",
+	"color": "#444444",
+	"top": "15",
+	"left": "35",
+	"hintText": "Message"
+}, 
+".textfield-profile[platform=android]": {
+	"width": "70%",
+	"height": "175px",
+	"borderRadius": "10",
+	"borderColor": "#ececec",
+	"backgroundColor": "white",
+	"color": "#444444",
+	"top": "15",
+	"left": "20",
+	"hintText": "Message"
+},
+".send": {
+	"height": "90px",
+	"width": "20%",
+	"backgroundColor": "white",
+	"color": "#193441",
+	"borderRadius": "10",
+	"borderColor": "#193441",
+	"borderWidth": "2"
+},
+".send": {
+	"height": "175px",
+	"width": "18%",
+	"backgroundColor": "white",
+	"color": "#193441",
+	"borderRadius": "10",
+	"borderColor": "#193441",
+	"borderWidth": "2"
+}
+

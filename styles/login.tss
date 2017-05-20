@@ -1,0 +1,34 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window"
+},
+".login-logo": {
+	"image": "/images/android/the-networkninjas-logo-lg.png",
+	"top": "30",
+	"width": "55%"
+},
+".login-logo[platform=android]": {
+	"image": "/images/android/the-networkninjas-logo-lg.png",
+	"top": "30"
+},
+".login-logo[plaform=ios formFactor=tablet]": {
+	"image": "/images/android/the-networkninjas-logo-lg.png",
+	"top": "30",
+	"width": "40%"
+},
+".login-title": {
+	"color": "black",
+	"top": "20"
+},
+".login-title[platform=android]": {
+	"color": "black",
+	"top": "30"
+},
+".login-title[plaform=ios formFactor=tablet]": {
+	"color": "black"
+},
+"#btnSignUp": {
+},
+"#btnSignIn": {
+}

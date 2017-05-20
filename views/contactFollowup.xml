@@ -1,0 +1,17 @@
+<Alloy>
+    <Window id="contactFollowup" backgroundColor="#193441">
+        <View borderRadius="10" class="form2 vgroup bg-white">
+            <Label class="h3 followup-title" text="Set a date to follow-up with your contact" width="80%"/>
+            <View class="hgroup size choose-followup" height="100px" top="20" width="80%">
+                <Label class="h5"  text="Follow-up"/>
+                <ImageView class="calendar-icon-square"  onClick="getFollowUpDate" id="ivFollowUpDate" height="90px" image="/images/iphone/calendar-icon.png" left="5" width="90px"/>
+                <TextField class="textfield-date"  id="txtFollowupDate" editable="false" backgroundColor="#ececec" height="90px" width="300px"/>
+            </View>
+            <View class="hgroup two-buttons" top="35">
+                <Button class="button-half1-full" onClick="gotoProfile">Back</Button>
+                <Button onClick="navNext" class="button-half1-full" onClick="saveEvent" left="20">Save</Button>
+            </View>
+        </View>
+        <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>
+    </Window>
+</Alloy>

@@ -1,0 +1,12 @@
+<Alloy>
+    <Window id="Window_1">
+        <View id="View_1">
+            <ImageView id="ImageView_1" image="/images/iphone/tasks-bar.png"/>
+        </View>
+        <View id="View_2">
+            <ImageView id="ImageView_2" image="/images/iphone/goals-bar.png"/>
+        </View>
+        <Button id="Button_1">Contacts</Button>
+        <Button id="Button_2">Hot List</Button>
+    </Window>
+</Alloy>

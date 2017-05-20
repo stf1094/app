@@ -1,0 +1,17 @@
+<Alloy>
+    <Window id="winDeadline" backgroundColor="#193441">
+        <View borderRadius="10" class="form2 vgroup bg-white">
+            <Label class="h3 deadline-title" text="Set a Deadline to Complete your Project" width="85%"/>
+            <View class="hgroup size choose-deadline" top="20" width="80%">
+                <Label class="h5" text="End Date"/>
+                <ImageView class="calendar-icon-square"  id="ivEndDate" image="/images/iphone/calendar-icon.png" onClick="showDTPicker" left="15"/>
+                <TextField backgroundColor="#ececec" id="txtEndDate" class="textfield-date"/>
+            </View>
+            <View class="hgroup two-buttons" height="13.5%" top="35">
+                <Button class="btn-form2" height="100%">Back</Button>
+                <Button class="btn-form2" height="100%" left="20" onClick="confirmContacts">Next</Button>
+            </View>
+        </View>
+        <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>
+    </Window>
+</Alloy>

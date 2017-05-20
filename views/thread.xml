@@ -1,0 +1,30 @@
+<Alloy>
+    <Window title="Thread">
+        <View class="vgroup">
+            <ScrollView class="vgroup top" height="520">
+                <View class="left-buffer top-buffer message-grey" height="90px">
+                    <Label class="h5" color="black">Message content</Label>
+                </View>
+                <View class="right-buffer top-buffer message-orange" height="90px">
+                    <Label class="h5" color="white">Message content</Label>
+                </View>
+                <View class="left-buffer top-buffer message-grey" height="90px"/>
+                <View class="right-buffer top-buffer message-orange" height="90px"/>
+                <View class="left-buffer top-buffer message-grey" height="90px"/>
+                <View class="right-buffer top-buffer message-orange" height="90px"/>
+                <View class="left-buffer top-buffer message-grey" height="90px"/>
+                <View class="right-buffer top-buffer message-orange" height="90px"/>
+                <View class="left-buffer top-buffer message-grey" height="90px"/>
+                <View class="right-buffer top-buffer message-orange" height="90px"/>
+                <View class="left-buffer top-buffer message-grey" height="90px"/>
+                <View class="right-buffer top-buffer message-orange" height="90px"/>
+                <View class="left-buffer top-buffer message-grey" height="90px"/>
+                <View class="right-buffer top-buffer message-orange" height="90px"/>
+            </ScrollView>
+            <View class="top-buffer hgroup" height="50">
+                <TextField class="left-buffer textfield-thread"/>
+                <Button class="left-buffer button-thread h2">></Button>
+            </View>
+        </View>
+    </Window>
+</Alloy>

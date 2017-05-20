@@ -1,0 +1,32 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window"
+},
+".project-holder" : {
+	"image": "/images/iphone/project-holder-image.png",
+	"width": "80%",
+	"height": "65%"
+},
+".project-row": {
+	"height": "175"
+},
+".project-row[platform=android]": {
+	"height": "175"
+},
+"#ImageView_1": {
+	"left": "0.00%",
+	"top": "0.00%",
+	"height": "23.25%",
+	"width": "100%"
+},
+".btn-projects": {
+	"left": "9.78%",
+	"width": "90%",
+	"height": "8%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"selectedBackgroundColor": "#e5790e"
+},
+

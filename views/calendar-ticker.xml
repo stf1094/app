@@ -1,0 +1,16 @@
+<Alloy>
+    <Window id="Window_1">
+        <View borderColor="#acacac" class="vgroup bg-white" height="35%" width="95%">
+            <!--Cancel and button-->
+            <View class="hgroup top-buffer" height="5%">
+                <Label class="left-buffer h5" color="red" text="Cancel"/>
+                <Label class="submit-btn h5" text="Submit"/>
+            </View>
+            <View class="separator" width="100%"/>
+            <View class="hgroup top-buffer" height="10%">
+                <Picker class="picker" height="20" id="pkCalendarType" visible="true"/>
+            </View>
+            <!--date ticker goes here-->
+        </View>
+    </Window>
+</Alloy>

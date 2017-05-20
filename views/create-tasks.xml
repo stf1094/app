@@ -1,0 +1,29 @@
+<Alloy>
+    <Window id="Window_1" title="Add Tasks">
+        <View class="form1" id="View_1">
+            /&gt;
+        /&gt;
+        
+            <ImageView id="ImageView_3" image="/images/iphone/plus-green.png" onClick="addNew"/>
+            /&gt;
+            
+            <Label id="Label_3">Add a new task</Label>/&gt;
+     		<ListView bottom="30%" id="lvTasks" top="35%">
+                <ListSection id="lsTasks" name="Tasks">
+                    
+                </ListSection>
+            </ListView>
+     
+            /&gt;
+        /&gt;
+            /&gt;
+        <Label id="Label_2">What are your tasks for this project?</Label>/&gt;
+        /&gt;
+        <ImageView id="ImageView_2" image="/images/iphone/addtasks.png"/>
+            <Button class="button-half1" left="10%" top="83%">BACK</Button>/&gt;
+            <Button class="button-half1" onClick="saveTasks" right="10%" top="83%">NEXT</Button>/&gt;
+        
+        </View>
+        <ImageView class="topCircle" id="ImageView_1" image="/images/iphone/project-shuriken.png"/>
+    </Window>
+</Alloy>

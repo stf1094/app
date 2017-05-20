@@ -1,0 +1,16 @@
+<Alloy>
+    <Window backgroundColor="#193441" id="Window_1">
+        <View class="form2 bg-white vgroup borderRadius10">
+            <Label class="h2 create-goal-title">Set a Goal</Label>
+            <Label class="h5 create-goal-subtitle" top="5">What would you like to achieve?</Label>
+            <Label class="h5 top-buffer" left="50">Ex: Get 15 Customers or</Label>
+            <Label class="h5" left="73">Recruit 10 New Associates</Label>
+            <TextField class="textfield-create-goal top-buffer h5" id="txtGoalName"/>
+            <View class="hgroup two-buttons" height="13.5%" top="25">
+                <Button class="btn-form2" height="100%">Back</Button>
+                <Button class="btn-form2" height="100%" left="15"  onClick="createNew">Next</Button>
+            </View>
+        </View>
+        <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>
+    </Window>
+</Alloy>

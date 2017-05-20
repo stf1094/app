@@ -1,0 +1,59 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window",
+},
+"#ScrollView_1": {
+},
+".hz-separator": {
+	"height": "50",
+	"width": "3px"
+},
+".calendar-cover": {
+	"image": "/images/iphone/calendar-cover.png"
+},
+".calendar-cover[platform=android]": {
+	"image": "/images/android/calendar-cover-android.png"
+},
+".calendar-cover[platform=ios formFactor=tablet]": {
+	"image": "/images/ipad/calendar-cover-ipad.png"
+},
+".ticker": {
+	"color": "white",
+	"left": "5%",
+	"top": "11%"
+},
+".ticker[platform=ios formFactor=tablet]": {
+	"color": "white",
+	"left": "10%",
+	"top": "11%"
+},
+".ticker[platform=android]": {
+	"color": "white",
+	"left": "6.5%",
+	"top": "12%"
+},
+".events": {
+	"top": "17%"
+},
+".events[platform=ios formFactor=tablet]": {
+	"top": "15.5%"
+},
+".events[platform=android]": {
+	"top": "20%"
+},
+".picker": {
+	"color": "white"
+},
+".picker[platform=ios formFactor=tablet]": {
+	"color": "white",
+	"heigth" : "25"
+},
+".picker[platform=android]": {
+	"color": "black",
+	"left" : "2%"
+},
+".test": {
+	"color": "#555555"
+},
+

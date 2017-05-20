@@ -1,0 +1,108 @@
+/**
+* 	General element and UI styles
+*/
+"Label": {
+	"autoLink": Ti.UI.AUTOLINK_ALL
+},
+"#mapview": {
+	"enableZoomControls": true,
+	"compassEnabled": true,
+	"height": "30%"
+},
+"#addFavoriteBtn[platform=android, mobileweb]": {
+	"backgroundColor": "transparent",
+	"color": "#C41230",
+	"borderWidth": 0
+},
+".container": {
+	"backgroundColor": "#fff",
+	"theme": "appcelerator"
+},
+".separator": {
+	"top": 25,
+	"height": 1,
+	"width": "90%",
+	"backgroundColor": "#acacac"
+},
+/**
+* 	Action Button Styles
+*  These styles represent unicode character codes for the icon fonts
+*  being used to represent the icons on the profile view
+*/
+/*
+".icon-phone":{
+text: "\uf095"
+},
+*/
+".icon-facebook": {
+	"text": "\uf082"
+},
+".icon-linkedin": {
+	"text": "\uf08c"
+},
+".icon-googleplus": {
+	"text": "\uf0d4"
+},
+".icon-phone": {
+	"text": "\uf095"
+},
+".icon-email": {
+	"text": "\uf0e0"
+},
+".icon-message": {
+	"text": "\uf075"
+},
+".icon-calendar": {
+	"text": "\uf073"
+},
+".icon-btn": {
+	"height": 60,
+	"width": 60,
+	"color": "#c77b06",
+	"borderRadius": 30,
+	"borderWidth": 2,
+	"borderColor": "#c77b06",
+	"backgroundColor": "#ffc060",
+	"textAlign": "center",
+	"font": {fontSize:24},
+	"left": "10%"
+},
+".icon-small": {
+	"font": {fontSize:18}
+},
+/**
+* 	MobileWeb Specific Styles
+*/
+"Window[platform=mobileweb]": {
+	"backgroundColor": "#fff",
+	"orientationModes": [],
+	"titleAttributes": {color:"#ae331f"},
+	"hideShadow": true,
+	"barColor": "#fff"
+},
+".title[platform=mobileweb]": {
+	"color": "#ae331f",
+	"font": {fontSize:20},
+	"width": Ti.UI.SIZE
+},
+".textfield-date": {
+	"height": "90px",
+	"width": "300px",
+	"backgroundColor": "#ececec"
+},
+".textfield-date[platform=android]": {
+	"width": "84%",
+	"height": "175px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10",
+	"left": "7%",
+	"color": "black"
+},
+"#followup_date": {
+},
+"#txtEndDate": {
+},
+"#pkNo": {
+},
+"#contactInfo": {
+}

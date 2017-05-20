@@ -1,0 +1,11 @@
+<Alloy>
+    <Window backgroundColor="#193441" id="Window_1">
+        <View class="form2 bg-white vgroup borderRadius10">
+            <Label class="h4 confirm-contacts-title" id="lblReality" text="If you start today, you'll have to contact x people per day. Is this correct?" width="80%"/>
+            <Button class="btn2" onClick="projectComplete" top="15">Yes, lets go with this!</Button>
+            <Button class="btn2 top-buffer" onClick="addMoreContacts">No, choose more contacts</Button>
+            <Button class="btn2 top-buffer" onClick="setADifferentStartDate">Set a different start date</Button>
+        </View>
+        <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>
+    </Window>
+</Alloy>

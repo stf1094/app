@@ -1,0 +1,29 @@
+<Alloy>
+    <Window class="vgroup" id="wrapper" onOpen="onInitLoad" title="The Network Ninjas">
+        <!-- <ImageView id="image" image="/images/ninja-head-orange.png" /> -->
+        <Menu id="menu" platform="android">
+            <!--
+			Adding the SearchView to the ActionBar via the Menu feature. Leveraging the standard Android Resource for the search
+			icon. Uses shared onChange function with iOS to update listView search text.
+
+			<MenuItem showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" title="Search" icon="Ti.Android.R.drawable.ic_menu_search">
+			<ActionView>
+			<SearchView ns="Ti.UI.Android" id="searchBar" platform="android" onChange="onSearchChange" />
+			</ActionView>
+			</MenuItem>-->
+            <!-- Android Menu item for accessing the Bookmarks view -->
+            <MenuItem icon="/images/ninja-head-orange-android.png" id="bookmarkBtn" showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" title="Bookmarks"/>
+        </Menu>
+        <View backgroundColor="#F7941D" height="50" left="true">
+            <Label color="#fff" height="Ti.UI.SIZE" id="label1" left="50" shadowColor="#aaa" text="DASHBOARD" textAlign="left" width="Ti.UI.SIZE"/>
+        </View>
+        <View class="hgroup top-buffer size">
+            <Label backgroundImage="/images/dashboard-contacts.png" height="150" id="project1" onClick="openMasterDirectory" width="150"/>
+            <Label backgroundImage="/images/dashboard-projects.png" height="150" id="project1" onClick="openProjectMain" width="150"/>
+            <Label backgroundImage="/images/dashboard-hotlist.png" height="150" id="project1" onClick="openHotLists" width="150"/>
+            <Label backgroundImage="/images/dashboard-reporting.png" height="150" id="project1" onClick="openReports" width="150"/>
+            <Label backgroundImage="/images/dashboard-recent.png" height="150" id="project1" width="150"/>
+            <Label backgroundImage="/images/dashboard-settings.png" height="150" id="project1" width="150"/>
+        </View>
+    </Window>
+</Alloy>

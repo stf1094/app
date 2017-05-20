@@ -1,0 +1,52 @@
+
+
+"Window": {
+	backgroundColor:"#fff",
+	orientationModes: [Ti.UI.PORTRAIT,Ti.UI.LANDSCAPE_LEFT,Ti.UI.LANDSCAPE_RIGHT,Ti.UI.UPSIDE_PORTRAIT],
+	titleAttributes:  {
+        color: "#ae331f"
+   },
+   hideShadow: true,
+   barColor:"#fff"
+},
+
+".navbtn":{
+	color: "#C41230",
+	font:{
+		fontFamily:"icomoon",
+		fontSize:36
+	}
+}
+
+".logo":{
+	text: "\f2b9",
+	color: "#C41230",
+	font:{
+		fontFamily:"fontawesome",
+		fontSize:28
+	}
+},
+".bookmark":{
+	//text:"\uf02e"
+	text: "\ue601",
+	color: "#C41230",
+	font:{
+		fontFamily:"icomoon",
+		fontSize:28
+	}
+}
+
+"#winTitle":{
+    color: "#ae331f",
+    text: "\f2b9 Network Ninja",
+    font:{
+    	fontSize: 20,
+    	fontFamily:"fontawesome"
+    }
+}
+
+"#tableView":{
+	tintColor: "#666",
+	borderWidth:0
+}
+

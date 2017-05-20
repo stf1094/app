@@ -1,0 +1,60 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window",
+	"backgroundColor": "#193341"
+},
+"#View_1": {
+	"height": "59%",
+	"left": "5.07%",
+	"top": "8.19%",
+	"width": "90.00%",
+},
+"#ImageView_1": {
+	"image": "/iphone/project-shuriken.png",
+	"layout": "absolute",
+	"visible": "true",
+	"height": "12%",
+	"left": "40%",
+	"top": "2.25%",
+	"width": "21%"
+},
+"#ImageView_3": {
+	"left": "11.51%",
+	"top": "70.88%",
+	"image": "/iphone/text-box-grey.png",
+	"height": "5%",
+	"width": "6%"
+},
+"#Label_3": {
+	"text": "Label",
+	"left": "19.07%",
+	"top": "71.22%",
+	"font": {fontSize:'3.5%',fontFamily:'',fontStyle:'',fontWeight:''},
+	"color": "#444444"
+},
+"#TextField_2": {
+	"width": "81.48%",
+	"height": "11.98%",
+	"borderRadius": "10",
+	"borderColor": "#ECECEC",
+	"borderWidth": "1",
+	"left": "9.78%",
+	"top": "54.41%",
+	"color": "#444444",
+	"backgroundColor": "#ececec"
+},
+"#Label_2": {
+	"text": "Label",
+	"left": "9.93%",
+	"top": "30.99%",
+	"font": {fontSize:'3.5%',fontFamily:'',fontStyle:'',fontWeight:''},
+	"highlightedColor": "#000000",
+	"color": "#444444"
+},
+"#ImageView_2": {
+	"left": "10%",
+	"top": "17.91%",
+	"height": "11%",
+	"width": "50%"
+}

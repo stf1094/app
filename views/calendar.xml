@@ -1,0 +1,39 @@
+<Alloy>
+    <Window id="Window_111">
+        <ImageView class="calendar-cover top"/>
+        <Label class="ticker h4" color="white" text="Which calendar"/>
+        <View class="vgroup events">
+            <Picker class="picker" height="75" id="pkCalendarType" visible="true"/>
+            <ScrollView class="vgroup" id="svCalendarEvents" opacity="100.0%" top="1%" verticalBounce="true">
+                <ListView defaultItemTemplate="eventTemplate" height="100%" id="lvEvents">
+                    <Templates>
+                        <ItemTemplate class="template" id="eventTemplate" name="eventTemplate">
+                            <!--Events-->
+                            <View class="bg-white vgroup" height="90" width="100%">
+                                <!--Date-->
+                                <View backgroundColor="#ececec" height="35" width="100%">
+                                    <Label bindId="lblDate" class="h4" left="5%" text="Date"/>
+                                </View>
+                                <View class="hgroup">
+                                    <!--Start and End Time-->
+                                    <View class="vgroup top-buffer" height="60" left="5%" width="20%">
+                                        <Label bindId="startDate" class="h5 left" text="Start Time"/>
+                                        <Label bindId="endDate" class="h5 left grey" text="End Time" top="5"/>
+                                    </View>
+                                    <!--Separator Line-->
+                                    <View bindID="orangeLine" class="bg-orange hz-separator left-buffer" opacity="100.0%" zIndex="99999999"/>
+                                    <!--Name and Place of Event-->
+                                    <View class="vgroup" width="60%">
+                                        <Label bindId="nnEvent" class="h5 left-buffer" text="Event" top="5"/>
+                                        <Label bindId="nnLocation" class="h6 left-buffer" text="Place of Event" top="5"/>
+                                    </View>
+                                </View>
+                            </View>
+                            <View class="separator" left="5%" width="95%"/>
+                        </ItemTemplate>
+                    </Templates>
+                </ListView>
+            </ScrollView>
+        </View>
+    </Window>
+</Alloy>

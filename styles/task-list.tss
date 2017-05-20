@@ -1,0 +1,70 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window"
+},
+"#View_1": {
+	"backgroundColor": "#193341",
+	"borderRadius": "0",
+	"height": "10%",
+	"left": "0.00%",
+	"top": "0.00%",
+	"width": "100.00%"
+},
+"#View_2": {
+	"height": "89.96%",
+	"left": "0.00%",
+	"top": "9.96%",
+	"width": "100.00%"
+},
+"#Label_1[platform='android,windows']": {
+	"color": "#ffffff",
+	"height": "68.55%",
+	"left": "28.40%",
+	"top": "16.94%",
+	"width": "46.53%",
+	"font": {fontSize:'25dp',fontFamily:'',fontStyle:'',fontWeight:''}
+},
+"#Label_1[platform='ios']": {
+	"color": "#ffffff",
+	"height": "68.55%",
+	"left": "28.40%",
+	"top": "16.94%",
+	"width": "46.53%",
+	"font": {fontSize:'20dp',fontFamily:'',fontStyle:'',fontWeight:''}
+},
+"#Button_1": {
+	"backgroundColor": "#ffffff",
+	"borderColor": "#193341",
+	"borderRadius": "10",
+	"borderWidth": "2",
+	"color": "#193341",
+	"height": "10%%",
+	"left": "66.13%",
+	"top": "3.21%",
+	"width": "30%"
+},
+"#TextField_1": {
+	"width": "60%",
+	"height": "10.09%",
+	"borderRadius": "10",
+	"borderColor": "#E5E5E5",
+	"borderWidth": "1",
+	"left": "3.73%",
+	"top": "3.21%",
+	"backgroundColor": "#ececec"
+},
+"#ListView_1": {
+	"height": "82.95%",
+	"left": "0.00%",
+	"top": "16.96%",
+	"width": "100.00%"
+},
+"#Label_1": {
+	"color": "#ffffff",
+	"font": {fontSize:'30dp',fontFamily:'',fontStyle:'',fontWeight:''},
+	"height": "100.00%",
+	"left": "26.27%",
+	"top": "0.00%",
+	"width": "55.87%",
+}

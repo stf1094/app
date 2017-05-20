@@ -1,0 +1,42 @@
+
+".container" : {
+  
+},
+".deadline-title": {
+	"top": "18%",
+	"left": "25"
+},
+".deadline-title[platform=ios formFactor=tablet]": {
+	"top": "22%",
+	"left": "8%"
+},
+".calendar-icon-square":{
+	"height": "90px",
+	"width": "90px",
+	"left": "15"
+},
+".calendar-icon-square[platform=android]":{
+	"height": "100%",
+	"width": "17%",
+	"left": "15"
+},
+".choose-deadline": {
+	"height": "15%"
+},
+".choose-deadline[platform-ios formFactor=tablet]": {
+	"height": "100px"
+},
+".choose-deadline[platform=android]": {
+	"height": "17%"
+},
+".textfield-date": {
+	"height": "100%",
+	"width": "50%",
+	"backgroundColor": "#ececec"
+},
+".textfield-date[platform=android]": {
+	"height": "100%",
+	"width": "55%",
+	"backgroundColor": "#ececec",
+	"color": "black"
+},

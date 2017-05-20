@@ -1,0 +1,32 @@
+<Alloy>
+    <!--
+	This view wraps all of the child views/lists etc. Creates a base layout, vertically aligned.
+	-->
+    <Window class="vgroup" id="wrapper1" title="Network Ninja Projects">
+        <Toolbar backgroundImage="/images/projects-group.png" barColor="#FFA500" center="true" height="50" id="toolbar" platform="ios" top="0"/>
+        <Menu id="menu" platform="android">
+            <!--
+			Adding the SearchView to the ActionBar via the Menu feature. Leveraging the standard Android Resource for the search
+			icon. Uses shared onChange function with iOS to update listView search text.
+
+			<MenuItem showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" title="Search" icon="Ti.Android.R.drawable.ic_menu_search">
+			<ActionView>
+			<SearchView ns="Ti.UI.Android" id="searchBar" platform="android" onChange="onSearchChange" />
+			</ActionView>
+			</MenuItem>-->
+            <!-- Android Menu item for accessing the Bookmarks view
+			<MenuItem id="bookmarkBtn" title="Bookmarks" icon="/images/ic_action_action_bookmark.png" showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM"/>-->
+        </Menu>
+        <View backgroundImage="/images/projects-group.png" height="100" left="true" platform="android"/>
+        <View class="hgroup top-buffer size">
+            <Label backgroundImage="/images/projectsNoLabel.png" height="150" id="project1" width="150"/>
+            <Label backgroundImage="/images/projectsNoLabel.png" height="150" id="project1" width="150"/>
+        </View>
+        <View class="hgroup top-buffer size">
+            <Label class="icon icon-btn fa-plus-circle" id="btnAddProject" onClick="addProject" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER"/>
+        </View>
+        <View class="hgroup top-buffer size">
+            <Label color="#9d9d9d" height="Ti.UI.SIZE" id="lblproject" text="Create a project" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="0" width="Ti.UI.SIZE"/>
+        </View>
+    </Window>
+</Alloy>

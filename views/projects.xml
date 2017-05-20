@@ -1,0 +1,28 @@
+<Alloy>
+    <Window id="Window_1" title="Projects">
+        <View class="vgroup bg-white">
+            <ImageView id="ImageView_1" image="/images/iphone/ui-projects-cover.png"/>
+            <Button class="btn-projects" left="5%" onClick="createNewProject" top="1%">Create a Project</Button>
+            <ScrollView class="vgroup" id="svCalendarEvents" opacity="100.0%" top="1%" verticalBounce="true">
+                <ListView defaultItemTemplate="projectTemplate" height="100%" id="lvProjects" resultsSeparatorColor="white">
+                    <Templates>
+                        <ItemTemplate class="template" id="projectTemplate" name="projectTemplate">
+                            <View class="vgroup top-buffer" left="3%">
+                                <View class="hgroup project-row top-buffer" id="vwProjectGroup">
+                                    <View class="vgroup" width="49%">
+                                        <ImageView bindId="ivProjectImage1" class="project-holder"   id="ivProjectImage1" onClick="navToExistingProjectTile1" visible="true"/>
+                                        <Label bindId="lblProjectName1" class="h5 top-buffer" text="" visible="true"/>
+                                    </View>
+                                    <View class="vgroup" width="49%">
+                                        <ImageView bindId="ivProjectImage2" class="project-holder" id="ivProjectImage2" onClick="navToExistingProjectTile2" visible="false"/>
+                                        <Label bindId="lblProjectName2" class="h5 top-buffer" text="" visible="false"/>
+                                    </View>
+                                </View>
+                            </View>
+                        </ItemTemplate>
+                    </Templates>
+                </ListView>
+            </ScrollView>
+        </View>
+    </Window>
+</Alloy>

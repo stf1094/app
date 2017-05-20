@@ -1,0 +1,61 @@
+<Alloy>
+    <Window backgroundColor="white" exitOnClose="true" fullscreen="false" id="win" title="ScrollView Demo">
+        <ImageView class="cover" image="/images/iphone/ui-hotlist-cover.png"/>
+        <ScrollView height="15%" horizontalBounce="true" id="scrollView" showHorizontalScrollIndicator="true" showVerticalScrollIndicator="true" width="100%">
+            <View backgroundColor="#ffffff" class="side-scroll" height="100%" id="view">
+                <Button class="avatar" id="btn1" left="1.5%" title="WW"/>
+                <Button class="avatar" id="btn2" left="11%" title="BD"/>
+                <Button class="avatar" id="btn3" left="20.5%" title="KT"/>
+                <Button class="avatar" id="btn4" left="30%" title="DF"/>
+                <Button class="avatar" id="btn5" left="39.5%" title="MW"/>
+                <Button class="avatar" id="btn6" left="49%" title="SF"/>
+                <Button class="avatar" id="btn7" left="58.5%" title="AW"/>
+                <Button class="avatar" id="btn8" left="68%" title="VF"/>
+                <Button class="avatar" id="btn9" left="77.5%" title="DB"/>
+                <Button class="avatar" id="btn10" left="87%" title="JB"/>
+                <!-- <ImageView   id="ImageView_2" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_3" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_4" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_5" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_6" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_7" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_8" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_9" image="/images/iphone/project-shuriken.png"/>
+                <ImageView id="ImageView_10" image="/images/iphone/project-shuriken.png"/> -->
+            </View>
+        </ScrollView>
+        <!-- <ScrollableView id="scrollableView" showPagingControl="true">
+            <View backgroundColor="#f79d41" id="view1">
+                <ListView id="ListView_1" title="Project 1">
+                    <ListSection id="ListSection1"/>
+                </ListView>
+            </View>
+            <View backgroundColor="#246" id="view2">
+                <Label>View 2</Label>
+                <ListView id="ListView_2" title="Project 2">
+                    <ListSection title="Project 2">
+                        <ListItem id="ListItem_1" title="Name 1"/>
+                        <ListItem id="ListItem_2" title="Name 2"/>
+                        <ListItem id="ListItem_3" title="Name 3"/>
+                        <ListItem id="ListItem_4" title="Name 4"/>
+                        <ListItem id="ListItem_5" title="Name 5"/>
+                        <ListItem id="ListItem_6" title="Name 6"/>
+                    </ListSection>
+                </ListView>
+            </View>
+            <View backgroundColor="#48b" id="view3">
+                <Label>View 3</Label>
+                <ListView id="ListView_3" title="Project 3">
+                    <ListSection title="Project 3">
+                        <ListItem id="ListItem_1" title="Name 1"/>
+                        <ListItem id="ListItem_2" title="Name 2"/>
+                        <ListItem id="ListItem_3" title="Name 3"/>
+                        <ListItem id="ListItem_4" title="Name 4"/>
+                        <ListItem id="ListItem_5" title="Name 5"/>
+                        <ListItem id="ListItem_6" title="Name 6"/>
+                    </ListSection>
+                </ListView>
+            </View>
+    </ScrollableView> -->
+    </Window>
+</Alloy>

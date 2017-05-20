@@ -1,0 +1,9 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window"
+},
+"#ImageView_1": {
+	"left": "38%",
+	"top": "7%",
+}

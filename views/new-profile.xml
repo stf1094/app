@@ -1,0 +1,87 @@
+<Alloy>
+	<Window id="newProfile" class="container vgroup" title="New Profile">
+		<!--
+		Profile Page
+		- A ScrollView that an end user can swipe to show more information about the user.
+		- Information View, shows phone, email, IM
+		- About View, a blurb of text about the user
+		- A list of recent messages seen between the user and this contact
+		-->
+		<ScrollView backgroundColor="#f9f9f9" class="vgroup top" id="contactInfo">
+
+			<View backgroundColor="white" class="vgroup top size">
+				<ImageView id="profileImage" image="/images/iphone/project-shuriken.png" top="20"/>
+				<Label class="h3 red top-buffer no-touch" id="named" >The Ninja</Label>
+				<Label class="h5 gray no-touch" id="job">Your ninja</Label>
+				<Label class="h5 gray no-touch" id="company">Alvarium Systems, Inc</Label>
+				<Button class="h4 span-width top-buffer" id="addFavoriteBtn" textid="bookmarkBtn">+ Add To Favorites</Button>
+			</View>
+			<!-- User Actions -->
+			<View backgroundColor="white" class="hgroup top-buffer size">
+				<Label class="icon icon-btn icon-phone" id="callBtn"/>
+				<Label class="icon icon-btn icon-email" id="emailBtn"/>
+				<Label class="icon icon-btn icon-message" id="msgBtn"/>
+			</View>
+			<View backgroundColor="white" class="hgroup top-buffer size">
+				<Label class="icon icon-btn icon-facebook" id="fbBtn"/>
+				<Label class="icon icon-btn icon-linkedin" id="liBtn"/>
+				<Label class="icon icon-btn icon-googleplus" id="googBtn"/>
+			</View>
+			<View class="separator" height="1%" width="100%"/>
+			<!-- Contact Information -->
+			<View class="buffer vgroup size">
+				<!-- <View class='hgroup size left-buffer top-buffer'>
+				<Label class="h3 icon icon-phone icon-small red left top" />
+				<Label id="phone" class="h6 gray left-buffer">999-999-9999</Label>
+				</View>
+				<View class='hgroup size left-buffer top-buffer'>
+				<Label class="h3 icon icon-email icon-small red left top" />
+				<Label id="email" class="h6 gray left-buffer">n.ninja@alvariumsystems.com</Label>
+				</View>
+				<View class='hgroup size left-buffer top-buffer'>
+				<Label class="h3 icon icon-message icon-small red left top" />
+				<Label id="im" class="h6 gray left-buffer right-buffer">Ned.Ninja</Label>
+				</View> -->
+				<!-- <View class="hgroup size left-buffer top-buffer">
+					<Label class="h3 icon icon-calendar icon-small red left top"/>
+					<Label class="h6 gray left-buffer right-buffer" id="start_date">July 27, 2016</Label>
+				</View> -->
+				<View class="separator top-buffer" width="95%"/>
+				<View class="size left-buffer top-buffer">
+					<Label class="h5 left top">Phone Number</Label>
+				</View>
+				<View class="separator top-buffer" width="95%"/>
+				<View class="size left-buffer top-buffer">
+					<Label class="h5 left top">Email</Label>
+				</View>
+				<View class="separator top-buffer" height="1%" width="95%"/>
+				<!-- <View class="hgroup size left-buffer top-buffer">
+					<Label class="h5 left top">Projects</Label>
+					<Label class="h6 left-buffer">Project 1</Label>
+					<Label class="h6 left-buffer">Project 3</Label>
+	</View> -->
+
+			</View>
+			<View class="separator" height="1%" width="100%"/>
+
+			<!-- User Information -->
+			<ScrollView backgroundColor="#f9f9f9" class="vgroup" height="50%">
+				<View class="left-buffer top-buffer message-grey" height="10%"/>
+				<View class="right-buffer top-buffer message-orange" height="10%">
+					<Label class="h5" color="white">Message content</Label>
+				</View>
+				<View class="left-buffer top-buffer message-grey" height="10%"/>
+				<View class="right-buffer top-buffer message-orange" height="10%"/>
+				<View class="left-buffer top-buffer message-grey" height="10%"/>
+				<View class="right-buffer top-buffer message-orange" height="10%"/>
+				<View class="left-buffer top-buffer message-grey" height="10%"/>
+				<View class="right-buffer top-buffer message-orange" height="10%"/>
+			</ScrollView>
+			<View class="hgroup top-buffer" height="10%">
+				<TextField class="textfield-profile"/>
+				<Button class="send left-buffer h2" top="15">&gt;</Button>
+			</View>
+
+		</ScrollView>
+	</Window>
+</Alloy>

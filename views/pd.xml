@@ -1,0 +1,36 @@
+<Alloy>
+    <Window id="Window_1" title="Project Dashboard">
+        <ImageView image="/images/iphone/project-db-cover.png" left="0.00%" right="0%" top="0.00%"/>
+        <Label class="textfield-med-full" color="white" id="txtPDProjectName" opacity="100" text="Project Name" textAlign="Ti.UI.TEXT_ALIGNMENT_CENTER" top="5%"/>
+        <Label class="h1 create-goal-title" top="19%">YOUR GOAL:</Label>
+        <Label class="h5 create-goal-subtitle" id="lblGoal" text="Get X customers" top="25%"/>
+        <ScrollView opacity="100.0%" verticalBounce="true">
+            <!-- <Button class="button-half1-full" left="5%" onClick="projectContacts" top="19%">Contacts</Button>
+	        <Button class="button-half1-full" onClick="projectHotlist" right="5%" top="19%">Hot List</Button> -->
+            <View backgroundColor="#ececec" height="12%" left="0.00%" top="26%" width="100%">
+                <Label height="10%"   class="label-center"  color="black" text="Waiting to hear from you"/>
+                <Button height="25%" class="top-buffer ac-button-green" id="ivWaitingToHear" onClick="projectContacts">Add Your Contacts</Button>
+                <!--  <ImageView height="20" id="ivWaitingToHear" image="/images/iphone/plus-green.png" onClick="projectContacts" right="15%" width="20"/> -->
+            </View>
+            <View backgroundColor="#193441" height="1%" top="34%" width="100%"/>
+            <ListView height="25%" id="lvWaitingToHear" onItemclick="onItemClickWTH" top="35%">
+                <ListSection id="lsWaitingToHear" name="WaitingToHear"/>
+            </ListView>
+            <View backgroundColor="#ececec" height="8%" top="60%" width="100%">
+                <Label class="label-center" color="black" text="YES"/>
+                <!-- <ImageView height="20" id="ivTasks" image="/images/iphone/plus-green.png" onClick="addNewTask" width="20"/> -->
+            </View>
+            <View backgroundColor="#8dc63f" height="1%" top="66%" width="100%"/>
+            <ListView height="20%" id="lvYes" onItemclick="onItemClickYES" top="67%">
+                <ListSection id="lsYes" name="YES"/>
+            </ListView>
+            <View backgroundColor="#ececec" height="8%" top="86%" width="100%">
+                <Label class="label-center" color="black" text="NO"/>
+            </View>
+            <View backgroundColor="#f2252a" height="1%" top="92%" width="100%"/>
+            <ListView height="20%" id="lvNo" onItemclick="onItemClickNO" top="93%">
+                <ListSection id="lsNo" name="NO"/>
+            </ListView>
+        </ScrollView>
+    </Window>
+</Alloy>

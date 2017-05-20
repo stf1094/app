@@ -1,0 +1,97 @@
+<Alloy>
+    <!-- Main Container of the View, title of the Window is pulled from the title property on the main view-->
+    <Window class="container vgroup" id="profile" opacity="0.0" title="Profile">
+        <TitleControl platform="mobileweb">
+            <Label class="title">Network Ninja Profile</Label>
+        </TitleControl>
+        <ActionBar displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" platfor="android"/>
+        <!--
+		Profile Page
+		- A ScrollView that an end user can swipe to show more information about the user.
+		- Information View, shows phone, email, IM
+		- About View, a blurb of text about the user
+		- MapView shows an annotation of where the user is located
+		-->
+        <ScrollView backgroundColor="#f9f9f9" class="vgroup top" id="contactInfo">
+            <!--
+			Map View
+			Leverages the Map Module, allowing for v2 of Google Maps and latest codebase unifying Google v2 and IOS
+		
+            <Module class="no-touch top" id="mapview" method="createView" module="ti.map" platform="android,ios,windows"/>
+            <View class="buffer border-dark-thick no-touch top" id="mapview" ns="Ti.Map" platform="mobileweb"/>
+            
+            	-->
+            <!-- User Information -->
+            <View class="vgroup top size">
+                <ImageView height="40" id="profileImage" image="/images/iphone/project-shuriken.png" top="20" width="40"/>
+                <Label class="h3 red top-buffer no-touch" id="name">The Ninja</Label>
+                <Label class="h5 gray no-touch" id="job">Your ninja</Label>
+                <Label class="h5 gray no-touch" id="company">Alvarium Systems, Inc</Label>
+                <Button class="h4 span-width top-buffer" id="addFavoriteBtn" onClick="toggleFavorite" textid="bookmarkBtn">+ Add To Favorites</Button>
+            </View>
+            <!-- User Actions -->
+            <View class="hgroup top-buffer size">
+                <Label class="icon icon-btn icon-phone" id="callBtn" onClick="showPhoneOptions"/>
+                <Label class="icon icon-btn icon-email" id="emailBtn" onClick="showEmailOptions"/>
+                <Label class="icon icon-btn icon-message" id="msgBtn" onClick="openSmsDialog"/>
+            </View>
+            <View class="hgroup top-buffer size">
+                <Label class="icon icon-btn icon-facebook" id="fbBtn" onClick="faceBook"/>
+                <Label class="icon icon-btn icon-linkedin" id="liBtn"/>
+                <Label class="icon icon-btn icon-googleplus" id="googBtn" onClick="openGoogleDialog"/>
+            </View>
+            <View class="separator"/>
+            <!-- Contact Information -->
+            <View class="buffer vgroup size">
+                <View class="hgroup size left-buffer top-buffer">
+                    <Label class="icon icon-btn icon-calendar" left="1%" onClick="scheduleFollowup"/>
+                    <Label class="h6 gray left-buffer" id="afsdads">Follow-up date:</Label>
+                    <Label class="h6 gray left-buffer" id="lblFollowupDate" text=""/>
+                </View>
+                <View class="separator"/>
+                <View class="hgroup top-buffer size" id="vwFollowup" visible="false">
+                    <Label class="h6 gray left-buffer" height="20%" id="asdfadsf" platform="ios">Actions:</Label>
+                    <Label class="h6 gray left-buffer" id="asdfadsf" platform="android">Actions:</Label>
+                    <Picker height="45%" id="actionPicker" platform="ios" width="55%">
+                        <PickerColumn backgroundColor="black" id="actionColumn">
+                            <PickerRow color="#cc6600" id="pkFollowup" title="Follow-up"/>
+                            <PickerRow color="#cc6600" id="pkYes" title="Yes"/>
+                            <PickerRow color="#cc6600" id="pkNo" title="No"/>
+                        </PickerColumn>
+                    </Picker>
+                    <Picker id="actionPicker" platform="android" width="150">
+                        <PickerColumn backgroundColor="black" id="actionColumn">
+                            <PickerRow color="#cc6600" id="pkFollowup" title="Follow-up"/>
+                            <PickerRow color="#cc6600" id="pkYes" title="Yes"/>
+                            <PickerRow color="#cc6600" id="pkNo" title="No"/>
+                        </PickerColumn>
+                    </Picker>
+                    <View class="hgroup top-buffer size" height="45%" platform="ios">
+                        <Button class="button-half1-full" onClick="backToPD" width="125">Back</Button>
+                    </View>
+                    <View class="hgroup top-buffer size" platform="android">
+                        <Button class="button-half1-full" onClick="backToPD" width="150">Back</Button>
+                    </View>
+                </View>
+            </View>
+            <View class="separator"/>
+            <!-- User Information -->
+            <ScrollView backgroundColor="#f9f9f9" class="vgroup" height="50%" visible="false">
+                <View class="left-buffer top-buffer message-grey" height="10%"/>
+                <View class="right-buffer top-buffer message-orange" height="10%">
+                    <Label class="h5" color="white">Message content</Label>
+                </View>
+                <View class="left-buffer top-buffer message-grey" height="10%"/>
+                <View class="right-buffer top-buffer message-orange" height="10%"/>
+                <View class="left-buffer top-buffer message-grey" height="10%"/>
+                <View class="right-buffer top-buffer message-orange" height="10%"/>
+                <View class="left-buffer top-buffer message-grey" height="10%"/>
+                <View class="right-buffer top-buffer message-orange" height="10%"/>
+            </ScrollView>
+            <View class="hgroup top-buffer" height="10%" visible="false">
+                <TextField class="textfield-profile"/>
+                <Button class="send left-buffer h2" top="15">&gt;</Button>
+            </View>
+        </ScrollView>
+    </Window>
+</Alloy>

@@ -1,0 +1,26 @@
+<Alloy>
+    <Window onOpen="onInitLoad">
+        <View class="top" height="15%" left="0%">
+            <ImageView class="dojo-cover"/>
+            <Label color="white" right="8%" text="welcome," top="15%"/>
+            <Label class="textfield-med-full" color="white" id="txtWelcome" right="8%" text="STEFAN" textAlign="Ti.UI.TEXT_ALIGNMENT_RIGHT" top="35%"/>
+        </View>
+        <View class="vgroup dashboard">
+            <View class="hgroup db-height">
+                <ImageView class="db-contacts db1" onClick="openMasterDirectory"/>
+                <ImageView class="db-projects db2" onClick="openProjectMain"/>
+            </View>
+            <View class="hgroup db-height">
+                <ImageView class="db-hotlist db1" onClick="openHotLists"/>
+                <ImageView class="db-reporting db2" onClick="openReports"/>
+            </View>
+            <View class="hgroup db-height">
+                <ImageView class="db-recent db1" onClick="openRecent"/>
+                <ImageView class="db-calendar db2" onClick="openCalendar"/>
+            </View>
+        </View>
+        <View height="10%" top="90%">
+            <ImageView class="dojo-bottom" top="0%"/>
+        </View>
+    </Window>
+</Alloy>

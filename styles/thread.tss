@@ -1,0 +1,21 @@
+
+".textfield-thread" : {
+  "width": "70%",
+  "height": "90px",
+  "borderRadius": "10",
+  "borderColor": "#ececec",
+  "hintText": "Message"
+},
+".button-thread": {
+	"height": "90px",
+	"width": "20%", 
+	"color": "#193441",
+	"backgroundColor": "white",
+	"borderRadius": "10",
+	"borderColor": "#193441",
+	"borderWidth": "2"	
+}
+
+".container" : {
+  
+}

@@ -1,0 +1,12 @@
+<Alloy>
+    <Window id="Window_1">
+        <View class="form1 vgroup bg-white borderRadius10">
+            <Label class="h1" left="25" top="15%">Congratulations!</Label>
+            <Label class="h5 top-buffer" left="25" width="80%" id="lblCongrats">You've just created a project and are one step closer to achieving your goal of:</Label>/&amp;gt;
+            <Label class="h4" top="20"  id="lblGoal" width="80%">Place goal here</Label>
+            <Button class="btn-form1" top="35" width="80%"  onClick="navToMyProject"  >Go to my Project</Button>
+            <Button class="btn-blue-form1 top-buffer" onClick="backToDashBoard" width="80%">Back to Dashboard</Button>
+        </View>
+        <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>
+    </Window>
+</Alloy>

@@ -1,0 +1,15 @@
+<Alloy>
+    <Window id="Window_1" title="Create Project">
+        <View class="form2 vgroup bg-white borderRadius10">
+            <Label class="h2 project-header" text="Create a Project"/>
+            <Label class="h5 project-subtitle" top="5">What would you like to name your project?</Label>
+            <Label class="h5 project-subtitle" left="14%" top="5">Ex: Achieve Your Next Rank</Label>
+            <TextField class="textfield-project" id="TextField_1" top="15"/>
+            <View class="hgroup two-buttons" height="13.5%" top="30">
+                <Button class="btn-form2" height="100%">Back</Button>
+                <Button class="btn-form2" height="100%" left="20" onClick="createNew">Next</Button>
+            </View>
+        </View>
+        <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>
+    </Window>
+</Alloy>

@@ -1,0 +1,30 @@
+<Alloy>
+    <Window id="Window_1" title="Add Contacts">
+        <View class="form4 vgroup bg-white borderRadius10">
+            <Label class="h2 add-contacts-title" text="Add Your Contacts"/>
+            <Label class="h5 top-buffer" left="7%" width="80%">Who are you going to contact to achieve this goal?</Label>
+            <Button class="top-buffer ac-button-green" onClick="addNew">Add Your Contacts</Button>
+            <!-- <ImageView height="20" id="ImageView_3" image="/images/iphone/plus-green.png" onClick="addNew" width="20"/> -->
+            <Label class="h5 top-buffer" id="lblAmountSelected" left="7%">You've selected x/100 contacts</Label>
+            <!--Contact List-->
+            <View platform="android">
+                <ListView height="64%" id="lvContacts" onItemclick="onItemClick" platform="android" top="1%">
+                    <ListSection id="lsContacts" name="Tasks"/>
+                </ListView>
+                <View class="hgroup two-buttons" platform="android" top="66%">
+                    <Button class="button-half1" height="15%">Back</Button>
+                    <Button class="button-half1" height="15%" id="Button_2" left="2%" onClick="projectDone">Next</Button>
+                </View>
+            </View>
+            <ListView bottom="40%" id="lvContacts" onItemclick="onItemClick" platform="ios" top="10%">
+                <ListSection id="lsContacts" name="Tasks"/>
+            </ListView>
+            <!--<View class="bg-white" height="54%"/> -->
+            <View bottom="45%" class="hgroup two-buttons" platform="ios">
+                <Button class="button-half1" height="20%">Back</Button>
+                <Button class="button-half1" height="20%" id="Button_2" left="20" onClick="projectDone">Next</Button>
+            </View>
+        </View>
+        <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>
+    </Window>
+</Alloy>

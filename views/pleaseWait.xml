@@ -1,0 +1,19 @@
+<Alloy>
+	<Require id="pleaseWait" platform="android,windows" src="login"/>
+    <NavigationWindow class="container" id="iosDB" platform="ios">
+        <Require src="dashboard"/>
+    </NavigationWindow>
+    <Window id="pleaseWait" onPostlayout="onInitLoad">
+        <View height="15%" left="0%" top="0%">
+            <ImageView class="dojo-cover" top="0%"/>
+            <Label color="white" right="8%" text="welcome," top="15%"/>
+            <Label class="textfield-med-full" color="white" id="txtPleaseWait" right="8%" text="Please wait..." textAlign="Ti.UI.TEXT_ALIGNMENT_RIGHT" top="35%"/>
+        </View>
+         <View id="overlay"/>
+        <ImageView id="rocketSmoke"/>
+        <ImageView id="rocketFlight"/>
+        <View height="15%" left="0%" top="90%">
+            <ImageView class="dojo-bottom" top="0%"/>
+        </View>
+    </Window>
+</Alloy>

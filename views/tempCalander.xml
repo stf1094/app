@@ -1,0 +1,86 @@
+<Alloy>
+    <Window id="Window_1">
+        <ImageView class="calendar-cover top"/>
+        <Label class="ticker h4" color="white" text="Which calendar"/>
+        <View class="vgroup events">
+            <ScrollView class="vgroup" id="ScrollView_1">
+                <!--Date-->
+                <View backgroundColor="#ececec" height="35" width="100%">
+                    <Label class="h4" left="5%" text="Date"/>
+                </View>
+                <!--Events-->
+                <View class="bg-white" height="60" width="100%">
+                    <View class="hgroup">
+                        <!--Start and End Time-->
+                        <View class="vgroup top-buffer" left="5%" width="18%">
+                            <Label class="h5 left" text="Start Time"/>
+                            <Label class="h5 left grey" text="End Time" top="5"/>
+                        </View>
+                        <!--Separator Line-->
+                        <View class="bg-orange hz-separator left-buffer"/>
+                        <!--Name and Place of Event-->
+                        <View class="vgroup" width="60%">
+                            <Label class="h4 left-buffer" text="Event" top="5"/>
+                            <Label class="h5 grey left-buffer" text="Place of Event" top="5"/>
+                        </View>
+                    </View>
+                </View>
+                <View class="separator" left="5%" width="95%"/>
+                <View class="bg-white" height="60" width="100%">
+                    <View class="hgroup">
+                        <!--Start and End Time-->
+                        <View class="vgroup top-buffer" left="5%" width="18%">
+                            <Label class="h5 left" text="Start Time"/>
+                            <Label class="h5 left grey" text="End Time" top="5"/>
+                        </View>
+                        <!--Separator Line-->
+                        <View class="bg-orange hz-separator left-buffer"/>
+                        <!--Name and Place of Event-->
+                        <View class="vgroup" width="60%">
+                            <Label class="h4 left-buffer" text="Event" top="5"/>
+                            <Label class="h5 grey left-buffer" text="Place of Event" top="5"/>
+                        </View>
+                    </View>
+                </View>
+                <!--Date-->
+                <View backgroundColor="#ececec" height="35" width="100%">
+                    <Label class="h4" left="5%" text="Date"/>
+                </View>
+                <!--Events-->
+                <View class="bg-white" height="60" width="100%">
+                    <View class="hgroup">
+                        <!--Start and End Time-->
+                        <View class="vgroup top-buffer" left="5%" width="18%">
+                            <Label class="h5 left" text="Start Time"/>
+                            <Label class="h5 left grey" text="End Time" top="5"/>
+                        </View>
+                        <!--Separator Line-->
+                        <View class="bg-orange hz-separator left-buffer"/>
+                        <!--Name and Place of Event-->
+                        <View class="vgroup" width="60%">
+                            <Label class="h4 left-buffer" text="Event" top="5"/>
+                            <Label class="h5 grey left-buffer" text="Place of Event" top="5"/>
+                        </View>
+                    </View>
+                </View>
+                <View class="separator" left="5%" width="95%"/>
+                <View class="bg-white" height="60" width="100%">
+                    <View class="hgroup">
+                        <!--Start and End Time-->
+                        <View class="vgroup top-buffer" left="5%" width="18%">
+                            <Label class="h5 left" text="Start Time"/>
+                            <Label class="h5 left grey" text="End Time" top="5"/>
+                        </View>
+                        <!--Separator Line-->
+                        <View class="bg-orange hz-separator left-buffer"/>
+                        <!--Name and Place of Event-->
+                        <View class="vgroup" width="60%">
+                            <Label class="h4 left-buffer" text="Event" top="5"/>
+                            <Label class="h5 grey left-buffer" text="Place of Event" top="5"/>
+                        </View>
+                    </View>
+                </View>
+            </ScrollView>
+        </View>
+    </Window>
+</Alloy>

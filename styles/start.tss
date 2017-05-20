@@ -1,0 +1,41 @@
+
+".start-title" : {
+  "top": "18%",
+  "left": "25"
+},
+".start-title[platform=ios formFactor=tablet]" : {
+  "top": "25%",
+  "left": "7%"
+},
+".start-title[platform=android]" : {
+  "top": "14%",
+  "left": "7%"
+},
+".calendar-icon-square":{
+	"height": "90px",
+	"width": "90px",
+	"left": "15"
+},
+".calendar-icon-square[platform=android]":{
+	"height": "100%",
+	"width": "17%",
+	"left": "15"
+},
+".choose-start-date": {
+	"height": "15%"
+},
+".choose-start-date[platform=android]": {
+	"height": "17%"
+},
+".textfield-date": {
+	"height": "100%",
+	"width": "50%",
+	"backgroundColor": "#ececec"
+},
+".textfield-date[platform=android]": {
+	"height": "100%",
+	"width": "50%",
+	"backgroundColor": "#ececec",
+	"color": "black"
+},
+

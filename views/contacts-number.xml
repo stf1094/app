@@ -1,0 +1,14 @@
+<Alloy>
+    <Window backgroundColor="#193441" id="Window_1">
+        <View class="form2 vgroup bg-white borderRadius10">
+            <Label class="h2 contacts-title" left="25" text="How many contacts?" width="94%"/>
+            <Label class="h5" left="25" text="How many people are you going to contact to reach this goal?" top="5" width="80%"/>
+            <TextField class="textfield-cn" hintText="Enter a number"  id="txtcontactsNumber" keyboardType="Titanium.UI.KEYBOARD_TYPE_NUMBER_PAD"  left="7%" top="15"/>
+            <View class="hgroup two-buttons" height="13.5%" top="25">
+                <Button class="btn-form2" height="100%">Back</Button>
+                <Button class="btn-form2" height="100%" left="20" onClick="addContacts">Next</Button>
+            </View>
+        </View>
+        <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>
+    </Window>
+</Alloy>

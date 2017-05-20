@@ -1,0 +1,49 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window",
+	"backgroundColor": "#edf0f1",
+	"left": "0.27%",
+	"top": "6.60%"
+},
+"#View_1": {
+	"borderRadius": "10",
+	"height": "47.47%",
+	"left": "2.80%",
+	"top": "12.45%",
+	"width": "94.80%"
+},
+"#View_2": {
+	"backgroundColor": "#ffffff",
+	"borderRadius": "10",
+	"height": "36.06%",
+	"left": "2.67%",
+	"top": "61.85%",
+	"width": "95%"
+},
+"#ImageView_1": {
+	"left": "0.00%",
+	"top": "0%",
+	"width": "100%",
+	"height": "17%"
+},
+"#ImageView_2": {
+	"left": "0%",
+	"top": "0%",
+	"width": "100%",
+	"height": "22%"
+},
+"#Button_1": {
+	"backgroundColor": "#ffffff",
+	"color": "#193341",
+	"height": "8%",
+	"left": "2.67%",
+	"top": "2.49%",
+	"width": "45%"
+},
+"#Button_2": {
+	"title": "Button",
+	"left": "52.67%",
+	"top": "2.57%",
+	"height": "8%",
+}

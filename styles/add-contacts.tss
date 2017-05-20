@@ -1,0 +1,57 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window",
+	"backgroundColor": "#193341"
+},
+".add-contacts-title": {
+	"top": "9%",
+	"left": "25"
+},
+".add-contacts-title[platform=ios formFactor=tablet]": {
+	"top": "10%",
+	"left": "7%"
+},
+".add-contacts-title[platform=android]": {
+	"top": "6%",
+	"left": "7%"
+},
+".ac-btns": {
+	"height": "7.5%",
+	"top": "35"
+},
+".ac-btns[platform=ios formFactor=tablet]": {
+	"height": "100px",
+	"top": "35"
+},
+".ac-btns[platform=android]": {
+	"height": "7%",
+	"top": "25"
+},
+".ac-button-green": {
+	"backgroundColor": "#8dc63f",
+	"color": "white",
+	"height": "7.5%",
+	"width": "85%",
+	"borderRadius": "10"
+},
+".ac-button-green[platform=ios formFactor=tablet]": {
+	"backgroundColor": "#8dc63f",
+	"color": "white",
+	"height": "100px",
+	"width": "85%",
+	"borderRadius": "10"
+},
+".ac-button-green[platform=android]": {
+	"backgroundColor": "#8dc63f",
+	"color": "white",
+	"height": "7%",
+	"width": "85%",
+	"borderRadius": "10"
+},
+".style1": {
+	"color": "#444444",
+	"height": "7%"
+}
+
+

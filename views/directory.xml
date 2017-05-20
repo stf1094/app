@@ -1,0 +1,72 @@
+<Alloy>
+    <!--
+	This view wraps all of the child views/lists etc. Creates a base layout, vertically aligned.
+	-->
+    <!--
+	<Window id="wrapper" class="vgroup" title="Network Ninja"    onOpen="onInitLoad" >
+	-->
+    <Window class="vgroup" id="wrapper" title="the Network Ninjas">
+        <!--
+		Menu Item to open the bookmarks view
+		-->
+        <Menu id="menu" platform="android">
+            <!--
+			Adding the SearchView to the ActionBar via the Menu feature. Leveraging the standard Android Resource for the search
+			icon. Uses shared onChange function with iOS to update listView search text.
+			-->
+            <MenuItem icon="Ti.Android.R.drawable.ic_menu_search" showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" title="Search">
+                <ActionView>
+                    <SearchView id="searchBar" ns="Ti.UI.Android" onChange="onSearchChange" platform="android"/>
+                </ActionView>
+            </MenuItem>
+            <!-- Android Menu item for accessing the Bookmarks view-->
+            <MenuItem icon="/images/ic_action_action_bookmark.png" id="bookmarkBtn" onClick="onBookmarkClick" showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" title="Bookmarks"/>
+            <!-- Android Menu item for accessing the Memory Jogger view-->
+            <MenuItem icon="/images/brain.png" id="memoryJoggerBtn" onClick="onBookmarkClick" showAsAction="Ti.Android.SHOW_AS_ACTION_IF_ROOM" title="Memory Jogger"/>
+        </Menu>
+        <!--
+		If you would like the searchbar to scroll up with the listView, you can move this line before the last
+		</ListView> tag. However for our implementation, we want the searchBar to be present at all times so we have moved
+		it outside of the ListView tags.
+		-->
+        <SearchBar class="search" id="searchBar" onBookmark="onBookmarkClick" onCancel="onSearchCancel" onChange="onSearchChange" onFocus="onSearchFocus" platform="ios"/>
+        <!--
+		The Directory list.
+		This listView leverages two ListItem templates to denote regular contacts and those that are bookmarked.
+		-->
+        <Button center="true" class="button-half1" height="30" id="btnBack" onClick="backToProject" top="0%" visible="false" width="300">ADD CONTACTS TO PROJECT</Button>/&gt;
+        <ListView defaultItemTemplate="userTemplate" id="listView" onItemclick="onItemClick">
+            <Templates>
+                <!-- UserTemplate - this is the default ListItem template -->
+                <ItemTemplate class="template" id="userTemplate" name="userTemplate">
+                    <View class="left-buffer">
+                        <ImageView bindId="userPhoto" class="avatar" id="userPhoto"/>
+                        <View class="smoothAvatarBorderRadius" platform="android"/>
+                        <View class="vgroup left size">
+                            <Label bindId="userName" class="title" id="userName"/>
+                            <!--<Label id="userEmail" bindId="userEmail" class="subtitle" /> -->
+                            <Label bindId="userCompany" class="subtitle" id="userCompany"/>
+                        </View>
+                        <Switch bindId="projectContact" onChange="addToProject" right="5%" title=""/>
+                        <View class="gray-line bottom"/>
+                    </View>
+                </ItemTemplate>
+                <!-- favoriteTemplate - this is the ListItem template for contacts that have been bookmarked -->
+                <ItemTemplate class="template" id="favoriteTemplate" name="favoriteTemplate">
+                    <View class="left-buffer">
+                        <ImageView bindId="userPhoto" class="avatar" id="userPhoto"/>
+                        <View class="smoothAvatarBorderRadius" platform="android"/>
+                        <View class="vgroup left size">
+                            <Label bindId="userName" class="title" id="userName"/>
+                            <!-- <Label id="userEmail" bindId="userEmail" class="subtitle" /> -->
+                            <Label bindId="userCompany" class="subtitle" id="userCompany"/>
+                        </View>
+                        <Switch bindId="projectContact" onChange="addToProject" right="5%" title=""/>
+                        <Label class="favorite"/>
+                        <View class="gray-line bottom"/>
+                    </View>
+                </ItemTemplate>
+            </Templates>
+        </ListView>
+    </Window>
+</Alloy>

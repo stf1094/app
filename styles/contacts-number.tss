@@ -1,0 +1,33 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window",
+},
+".contacts-title": {
+	"top": "17%"
+},
+".contacts-title[platform=ios formFactor=tablet]": {
+	"top": "25%"
+},
+".contacts-title[platform=android]": {
+	"top": "12.5%"
+},
+".textfield-cn": {
+	"width": "86%",
+	"height": "15%",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10"
+},
+".textfield-cn[platform=ios formFactor=tablet]": {
+	"width": "86%",
+	"height": "100px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10"
+},
+".textfield-cn[platform=android]": {
+	"width": "86%",
+	"height": "17%",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10",
+	"color": "black"
+}

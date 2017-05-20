@@ -1,0 +1,53 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window",
+	"backgroundColor": "#193341"
+},
+"#View_1": {
+	"height": "65%",
+	"width": "90%",
+	"left": "4.27%",
+	"top": "8.43%"
+},
+"#ImageView_1": {
+},
+"#Label_1": {
+	"height": "18.91%",
+	"left": "9.19%",
+	"top": "13.60%",
+	"width": "81.63%",
+	"font": {fontSize:'10%',fontFamily:'sans-serif',fontStyle:'',fontWeight:'bold'}
+},
+"#Button_1": {
+	"height": "10.01%",
+	"left": "7.93%",
+	"top": "82.08%",
+	"width": "82.67%",
+	"font": { fontSize: '5%', fontFamily: 'sans-serif', fontStyle: 'normal', fontWeight: ''},
+},
+"#Label_2": {
+	"height": "9.89%",
+	"left": "12.04%",
+	"top": "28.68%",
+	"width": "78.56%",
+	"font": {fontSize:'5%',fontFamily:'',fontStyle:'',fontWeight:''}
+},
+"#Label_3": {
+	"left": "21.88%",
+	"top": "71.20%",
+	"font": {fontSize:'1.00%',fontFamily:'monospace',fontStyle:'italic',fontWeight:''},
+	"height": "5.44%",
+	"width": "68.43%",
+	"highlightedColor": "#000000",
+},
+"#ImageView_3": {
+	"left": "13.51%",
+	"top": "71.20%",
+	"height": "6%",
+	"width": "7%"
+},
+"#TextField_1": {
+},
+"#TextField_2": {
+}
