@@ -58,11 +58,11 @@ text: "\uf095"
 ".icon-btn": {
 	"height": 60,
 	"width": 60,
-	"color": "#c77b06",
+	"color": "#f7941d",
 	"borderRadius": 30,
 	"borderWidth": 2,
-	"borderColor": "#c77b06",
-	"backgroundColor": "#ffc060",
+	"borderColor": "#f7941d",
+	"backgroundColor": "white",
 	"textAlign": "center",
 	"font": {fontSize:24},
 	"left": "10%"

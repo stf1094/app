@@ -1,17 +1,16 @@
 <Alloy>
     <Window backgroundColor="#f3f3f3" id="Window_1" onPostlayout="onInitLoad">
-        <ImageView class="login-logo"/>
         <View class="vgroup">
             <ImageView class="login-logo"/>
             <Label class="login-title h2" id="btnLabel" text="Log In"/>
-            <View class="view700 bg-white vgroup top-buffer">
-                <TextField class="textfield600" hintText="Username or Email" id="txtUsername" top="40"/>
-                <TextField class="textfield600 top-buffer" passwordMask="true" hintText="Password" id="txtPassword"/>
-                <Button class="button1 top-buffer" id="btnSignIn" onClick="signIn">Log In</Button>
-                <Label class="h5" color="black" text="Don't have an account?" top="30"/>
-                <Button backgroundColor="#8dc63f" class="button1 top-buffer" id="btnSignUp" onClick="signUp">Sign Up</Button>
+            <View class="login-view bg-white vgroup top-buffer">
+                <TextField class="login-textfield1" hintText="Username or Email" id="txtUsername"/>
+                <TextField class="login-textfield top-buffer" hintText="Password" id="txtPassword" passwordMask="true"/>
+                <Button class="btn-login top-buffer" id="btnSignIn" onClick="signIn">Log In</Button>
+                <Label class="h5" text="Don't have an account?" top="25"/>
+                <Button backgroundColor="#8dc63f" class="btn-login top-buffer" id="btnSignUp" onClick="signUp">Sign Up</Button>
             </View>
-            <Label class="h5" color="black" text="Forgot Password?" top="25"/>
+            <Label class="h5" text="Forgot Password?" top="25"/>
         </View>
     </Window>
 </Alloy>

@@ -3,12 +3,43 @@
 "#Window_1": {
 	"title": "Window"
 },
-".cover": {
+".hotlist-table": {
+	"height": "1337px"
+},
+".hotlist-table[platform=android]": {
+	"height": "2560px"
+},
+".hotlist-cover": {
 	"left": "0.00%",
 	"top": "0.00%",
-	"image": "/iphone/ui-hotlist-cover.png",
-	"height": "23.25%",
+	"image": "/images/iphone/ui-hotlist-cover.png",
 	"width": "100%"
+},
+".hotlist-cover[platform=android]": {
+	"left": "0.00%",
+	"top": "0.00%",
+	"image": "/images/iphone/ui-hotlist-cover.png",
+	"width": "100%"
+},
+".hotlist-cover[platform=ios formFactor=tablet]": {
+	"left": "0.00%",
+	"top": "0.00%",
+	"image": "/images/ipad/hotlist-cover-ipad.png",
+	"width": "100%"
+},
+".rightArrow": {
+	"image": "images/iphone/arrow-right.png",
+	"height": "30px",
+	"width": "30px"
+},
+".time-day": {
+	"left": "10"
+},
+".time-day[platform=ios formFactor=tablet]": {
+	"left": "375"
+},
+".hotlist-row": {
+	"height": "140px"
 },
 "#scrollView": {
 	"height": "40.00%",

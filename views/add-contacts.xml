@@ -11,18 +11,18 @@
                 <ListView height="64%" id="lvContacts" onItemclick="onItemClick" platform="android" top="1%">
                     <ListSection id="lsContacts" name="Tasks"/>
                 </ListView>
-                <View class="hgroup two-buttons" platform="android" top="66%">
-                    <Button class="button-half1" height="15%">Back</Button>
-                    <Button class="button-half1" height="15%" id="Button_2" left="2%" onClick="projectDone">Next</Button>
+                <View class="hgroup two-buttons ac-btns" platform="android">
+                    <Button class="btn-form4" height="100%">Back</Button>
+                    <Button class="btn-form4" height="100%" id="Button_2" left="2%" onClick="projectDone">Next</Button>
                 </View>
             </View>
-            <ListView bottom="40%" id="lvContacts" onItemclick="onItemClick" platform="ios" top="10%">
+            <ListView class="top-buffer" height="41%" id="lvContacts" onItemclick="onItemClick" platform="ios">
                 <ListSection id="lsContacts" name="Tasks"/>
             </ListView>
             <!--<View class="bg-white" height="54%"/> -->
-            <View bottom="45%" class="hgroup two-buttons" platform="ios">
-                <Button class="button-half1" height="20%">Back</Button>
-                <Button class="button-half1" height="20%" id="Button_2" left="20" onClick="projectDone">Next</Button>
+            <View class="hgroup two-buttons ac-btns" platform="ios">
+                <Button class="btn-form4" height="100%">Back</Button>
+                <Button class="btn-form4" height="100%" id="Button_2" left="20" onClick="projectDone">Next</Button>
             </View>
         </View>
         <ImageView class="topCircle" image="/images/iphone/project-shuriken.png"/>

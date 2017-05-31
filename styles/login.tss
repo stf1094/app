@@ -31,4 +31,78 @@
 "#btnSignUp": {
 },
 "#btnSignIn": {
-}
+},
+
+".login-view": {
+	"height": "52.5%",
+	"width": "100%"
+},
+".login-view[platform=ios formFactor=tablet]": {
+	"height": "700px",
+	"width": "850px"
+},
+".login-view[platform=android]": {
+	"height": "52.5%",
+	"width": "95%"
+},
+".login-textfield": {
+	"width": "80%",
+	"height": "13.5%",
+	"backgroundColor": "#ececec",
+	"left": "10%",
+	"borderRadius": "10"
+},
+".login-textfield[platform=ios formFactor=tablet]": {
+	"width": "80%",
+	"height": "100px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10"
+},
+".login-textfield[platform=android]": {
+	"width": "80%",
+	"height": "16%",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10",
+	"color": "black"
+},
+".login-textfield1": {
+	"width": "80%",
+	"height": "13.5%",
+	"backgroundColor": "#ececec",
+	"left": "10%",
+	"borderRadius": "10",
+	"top": "10%"
+},
+".login-textfield1[platform=ios formFactor=tablet]": {
+	"width": "80%",
+	"height": "100px",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10"
+},
+".login-textfield1[platform=android]": {
+	"width": "80%",
+	"height": "16%",
+	"backgroundColor": "#ececec",
+	"borderRadius": "10",
+	"color": "black",
+	"top": "7%"
+},
+".btn-login": {
+	"left": "9.78%",
+	"width": "80%",
+	"height": "12.85%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"selectedBackgroundColor": "#e5790e"
+},
+".btn-login[platform=android]": {
+	"left": "9.78%",
+	"width": "80%",
+	"height": "14%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"selectedBackgroundColor": "#e5790e"
+},
+

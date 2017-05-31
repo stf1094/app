@@ -401,6 +401,20 @@
 	"height": "12%",
 	"width": "21%"
 },
+".topCircle[platform=ios formFactor=tablet]": {
+	"left": "43%",
+	"top": "2.25%",
+	"height": "200px",
+	"width": "200px",
+	"image": "/images/iphone/project-shuriken.png"
+},
+".topCircle[platform=android]": {
+	"left": "43%",
+	"top": "3.5%",
+	"height": "8.75%",
+	"width": "13.88%",
+	"image": "/images/iphone/project-shuriken.png"
+},
 ".form1": {
 	"left": "5%",
 	"right": "5%",

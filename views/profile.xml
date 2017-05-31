@@ -35,7 +35,7 @@
                 <Label class="icon icon-btn icon-email" id="emailBtn" onClick="showEmailOptions"/>
                 <Label class="icon icon-btn icon-message" id="msgBtn" onClick="openSmsDialog"/>
             </View>
-            <View class="hgroup top-buffer size">
+            <View class="hgroup size" top="20">
                 <Label class="icon icon-btn icon-facebook" id="fbBtn" onClick="faceBook"/>
                 <Label class="icon icon-btn icon-linkedin" id="liBtn"/>
                 <Label class="icon icon-btn icon-googleplus" id="googBtn" onClick="openGoogleDialog"/>
