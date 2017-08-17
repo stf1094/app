@@ -1,0 +1,18 @@
+
+".container" : {
+  
+},
+".settings-cover" : {
+	"left": "0.00%",
+	"top": "0.00%",
+	"image": "/images/iphone/settings-iphone-cover.png",
+	"width": "100%"
+},
+".settings-row": {
+	"height": "90px",
+	"backgroundColor": "white"
+},
+".settings-row[platform=android]": {
+	"height": "125px",
+	"backgroundColor": "white"
+}

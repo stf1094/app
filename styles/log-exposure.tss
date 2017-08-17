@@ -1,0 +1,49 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window"
+},
+".exposure-notes": {
+	"width": "90%",
+	"height": "200px",
+	"hintText": "add notes on the exposure",
+	"hintTextColor": "#e6e6e6",
+	"left": "5%",
+	"top": "15",
+	"color": "black"
+},
+".exposure-notes[platform=android]": {
+	"width": "90%",
+	"height": "500px",
+	"hintText": "add notes on the exposure",
+	"hintTextColor": "#e6e6e6",
+	"left": "5%",
+	"top": "15"
+},
+".le-button": {
+	"left": "5%",
+	"width": "90%",
+	"height": "6.75%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".le-button[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "90px",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".le-button[platform=android]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "8%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+}

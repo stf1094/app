@@ -1,7 +1,7 @@
 <Alloy>
     <Window id="Window_111">
         <ImageView class="calendar-cover top"/>
-        <Label class="ticker h4" color="white" text="Which calendar"/>
+        <!--  <Label class="ticker h4" color="white" text="Which calendar"/> -->
         <View class="vgroup events">
             <Picker class="picker" height="75" id="pkCalendarType" visible="true"/>
             <ScrollView class="vgroup" id="svCalendarEvents" opacity="100.0%" top="1%" verticalBounce="true">

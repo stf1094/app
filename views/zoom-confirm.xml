@@ -1,0 +1,26 @@
+<Alloy>
+    <Window class="bg-white" id="Window_1" title="Zoom Confirm">
+        <View class="vgroup">
+            <View backgroundColor="#e6e6e6" class="top" height="6%">
+                <Label class="h5" color="#444444" left="5%" text="CONFIRM ZOOM MEETING" top="25%"/>
+            </View>
+            <View height="9%">
+                <Label class="h5" left="5%" text="Topic:"/>
+            </View>
+            <View class="separator" color="f9f9f9" width="100%"/>
+            <View height="9%">
+                <Label class="h5" left="5%" text="Start:"/>
+            </View>
+            <View class="separator" color="f9f9f9" width="100%"/>
+            <View height="9%">
+                <Label class="h5" left="5%" text="Time Zone:"/>
+            </View>
+            <View class="separator" color="cccccc" width="100%"/>
+            <View height="9%">
+                <Label class="h5" left="5%" text="Participants:" width="80%"/>
+            </View>
+            <Button class="zoom-button" top="25">CREATE AND SEND INVITE</Button>
+            <View backgroundColor="#e6e6e6" height="50%" top="25"/>
+        </View>
+    </Window>
+</Alloy>

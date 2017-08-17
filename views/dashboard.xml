@@ -16,7 +16,11 @@
             </View>
             <View class="hgroup db-height">
                 <ImageView class="db-recent db1" onClick="openRecent"/>
-                <ImageView class="db-calendar db2" onClick="openCalendar"/>
+                <ImageView class="db-zoom db2" onClick=""/>
+            </View>
+             <View class="hgroup db-height">
+                <ImageView class="db-calendar db1" onClick="openCalendar"/>
+                <ImageView class="db-settings db2" onClick=""/>
             </View>
         </View>
         <View height="10%" top="90%">

@@ -1,0 +1,40 @@
+<Alloy>
+    <Window backgroundColor="#e6e6e6" exitOnClose="true" fullscreen="false" title="Settings">
+      <ScrollView>
+        <View class="vgroup">
+            <ImageView class="settings-cover"/>
+            <View backgroundColor="#e6e6e6" height="4%"/>
+            <View class="settings-row">
+                <Label class="h5 left-buffer">Profile</Label>
+            </View>
+            <View backgroundColor="#e6e6e6" class="separator" width="100%"/>
+            <View class="settings-row">
+                <Label class="h5 left-buffer">Payments</Label>
+            </View>
+            <View backgroundColor="#e6e6e6" class="separator" width="100%"/>
+            <View class="settings-row">
+                <Label class="h5 left-buffer">Account Plan</Label>
+            </View>
+            <View backgroundColor="#e6e6e6" class="separator" width="100%"/>
+            <View class="settings-row">
+                <Label class="h5 left-buffer">Referrals</Label>
+            </View>
+            <View height="2%"/>
+            <View backgroundColor="#e6e6e6" class="separator" width="100%"/>
+            <View class="settings-row">
+                <Label class="h5 left-buffer">Feedback</Label>
+            </View>
+            <View backgroundColor="#e6e6e6" class="separator" width="100%"/>
+            <View class="settings-row">
+                <Label class="h5 left-buffer">Terms of Service</Label>
+            </View>
+            <View backgroundColor="#e6e6e6" height="8%"/>
+            <View backgroundColor="#e6e6e6" class="vgroup" height="30%">
+                <ImageView class="settings-logo bottom-buffer" width="60%"/>
+                <Label class="grey label-center top-buffer">Network Ninjas 1.0</Label>
+                <Label class="grey label-center" top="1">Copyright Alvarium Systems 2016-2017</Label>
+            </View>
+        </View>
+        </ScrollView>
+    </Window>
+</Alloy>

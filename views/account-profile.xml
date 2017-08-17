@@ -1,0 +1,38 @@
+<Alloy>
+    <Window id="Window_1" class="bg-white" title="Account Profile">
+    	<View class="vgroup">
+    		<View backgroundColor="#e6e6e6" class="top" height="5%">
+    			<Label class="h5" color="#444444" left="5%" text="FIRST NAME" top="15%"/>
+    		</View>
+    		<View height="9%">
+    			<TextField class="ap-textfield" hintText="enter first name"/>
+    		</View>
+    		<View backgroundColor="#e6e6e6" class="top" height="5%">
+    			<Label class="h5" color="#444444" left="5%" text="LAST NAME" top="15%"/>
+    		</View>
+    		<View height="9%">
+    			<TextField class="ap-textfield" hintText="enter last name"/>
+    		</View>
+    		<View backgroundColor="#e6e6e6" class="top" height="5%">
+    			<Label class="h5" color="#444444" left="5%" text="EMAIL" top="15%"/>
+    		</View>
+    		<View height="9%">
+    			<TextField class="ap-textfield" hintText="enter email"/>
+    		</View>
+    		<View backgroundColor="#e6e6e6" class="top" height="5%">
+    			<Label class="h5" color="#444444" left="5%" text="FACEBOOK" top="15%"/>
+    		</View>
+    		<View height="9%">
+    			<TextField class="ap-textfield" hintText="enter facebook profile link"/>
+    		</View>
+    		<View backgroundColor="#e6e6e6" class="top" height="5%">
+    			<Label class="h5" color="#444444" left="5%" text="LINKEDIN" top="15%"/>
+    		</View>
+    		<View height="9%">
+    			<TextField class="ap-textfield" hintText="enter linkedin profile link"/>
+    		</View>
+    		<View backgroundColor="#e6e6e6" class="top" height="30%">
+    		</View>
+    	</View>
+    </Window>
+</Alloy>

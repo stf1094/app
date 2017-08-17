@@ -1,0 +1,81 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window"
+},
+".zoom-textfield": {
+	"backgroundColor": "#ffffff",
+	"color": "black",
+	"left": "5%",
+	"height": "100%",
+	"width": "85%"
+},
+".zoom-textfield[platform=ios formFactor=tablet]": {
+	"backgroundColor": "#ffffff",
+	"color": "black",
+	"left": "5%",
+	"height": "100px",
+	"width": "85%"
+},
+".zoom-textfield[platform=android]": {
+	"backgroundColor": "#ffffff",
+	"color": "black",
+	"left": "5%",
+	"height": "95%",
+	"width": "85%",
+	"hintTextColor": "#e6e6e6"
+},
+".calendar-icon-square": {
+	"height": "90px",
+	"width": "90px"
+},
+".calendar-icon-square[platform=android]": {
+	"height": "70%",
+	"width": "12.5%"
+},
+".textfield-date": {
+	"height": "90px",
+	"width": "80%",
+	"backgroundColor": "#ececec"
+},
+".textfield-date[platform=android]": {
+	"height": "70%",
+	"width": "80%",
+	"backgroundColor": "#ececec",
+	"color": "black"
+},
+".zoom-button": {
+	"left": "5%",
+	"width": "90%",
+	"height": "6.75%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".zoom-button[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "90px",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".zoom-button[platform=android]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "8%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+"#Switch_1": {
+},
+"#Picker_1": {
+	"left": "21%",
+	"top": "40%"
+},
+"#PickerRow_1": {
+}

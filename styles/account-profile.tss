@@ -1,0 +1,27 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window",
+},
+".ap-textfield": {
+	"backgroundColor": "#ffffff",
+	"color": "black",
+	"left": "5%",
+	"height": "100%",
+	"width": "85%"
+},
+".ap-textfield[platform=ios formFactor=tablet]": {
+	"backgroundColor": "#ffffff",
+	"color": "black",
+	"left": "5%",
+	"height": "100px",
+	"width": "85%"
+},
+".ap-textfield[platform=android]": {
+	"backgroundColor": "#ffffff",
+	"color": "black",
+	"left": "5%",
+	"height": "90%",
+	"width": "85%",
+	"hintTextColor": "#e6e6e6"
+},

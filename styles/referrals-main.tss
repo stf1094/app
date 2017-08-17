@@ -1,0 +1,63 @@
+".container": {
+},
+"#Window_1": {
+	"title": "Window"
+},
+".refer-button": {
+	"left": "5%",
+	"width": "90%",
+	"height": "6.75%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".refer-button[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "90px",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".refer-button[platform=android]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "8%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+"#TableView_1": {
+},
+".en-referrals": {
+	"left": "64%"
+},
+".pro-referrals": {
+	"left": "60%"
+},
+".pro-referrals[platform=android]": {
+	"left": "59.5%"
+},
+".ent-referrals": {
+	"left": "63.5%"
+},
+".ent-referrals[platform=android]": {
+	"left": "63.75%"
+},
+".total-referrals": {
+	"left": "55%"
+},
+".total-referrals[platform=android]": {
+	"left": "58%"
+},
+".referral-row": {
+	"height": "90px"
+},
+".referral-row[platform=android]": {
+	"height": "140px"
+},
+
+

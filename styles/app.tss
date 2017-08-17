@@ -650,10 +650,10 @@
 	"height": "100%"
 },
 ".db-height": {
-	"height": "33%"
+	"height": "25%"
 },
 ".db-height[platform=android]": {
-	"height": "33.33%"
+	"height": "25%"
 },
 ".dashboard": {
 	"height": "75%",
@@ -664,7 +664,7 @@
 	"top": "15%"
 },
 ".db-contacts": {
-	"image": "/images/iphone/db-contacts.png",
+	"image": "/images/iphone/iphone-db-contacts.png",
 	"selectedImage": "/images/iphone/db-contacts-grey.png"
 },
 ".db-contacts[platform=android]": {
@@ -674,64 +674,74 @@
 ".db-contacts[platform=ios formFactor=tablet]": {
 },
 ".db-projects": {
-	"image": "/images/iphone/db-projects.png",
+	"image": "/images/iphone/iphone-db-projects.png",
 	"selectedImage": "/images/iphone/db-projects-grey.png"
 },
 ".db-projects[platform=android]": {
-	"image": "/images/android/db-android-projects.png",
+	"image": "/images/android/android-db-projects.png",
 	"selectedImage": "/images/android/db-android-projects-grey.png"
 },
 ".db-projects[platform=ios formFactor=tablet]": {
 },
 ".db-hotlist": {
-	"image": "/images/iphone/db-hotlist-grey.png",
+	"image": "/images/iphone/iphone-db-hotlist.png",
 	"selectedImage": "/images/iphone/db-hotlist-grey.png"
 },
 ".db-hotlist[platform=android]": {
-	"image": "/images/android/db-android-hotlist-grey.png",
+	"image": "/images/android/android-db-hotlist.png",
 	"selectedImage": "/images/android/db-android-hotlist-grey.png"
 },
 ".db-hotlist[platform=ios formFactor=tablet]": {
 },
 ".db-reporting": {
-	"image": "/images/iphone/db-reporting-grey.png",
+	"image": "/images/iphone/iphone-db-reporting.png",
 	"selectedImage": "/images/iphone/db-reporting-grey.png"
 },
 ".db-reporting[platform=android]": {
-	"image": "/images/android/db-android-reporting-grey.png",
+	"image": "/images/android/android-db-reporting.png",
 	"selectedImage": "/images/android/db-android-reporting-grey.png"
 },
 ".db-reporting[platform=ios formFactor=tablet]": {
 },
 ".db-recent": {
-	"image": "/images/iphone/db-recent-grey.png",
+	"image": "/images/iphone/iphone-db-recent.png",
 	"selectedImage": "/images/iphone/db-recent-grey.png"
 },
 ".db-recent[platform=android]": {
-	"image": "/images/android/db-android-recent-grey.png",
+	"image": "/images/android/android-db-recent.png",
 	"selectedImage": "/images/android/db-android-recent-grey.png"
 },
 ".db-recent[platform=ios formFactor=tablet]": {
 },
 ".db-settings": {
-	"image": "/images/iphone/db-settings.png",
+	"image": "/images/iphone/iphone-db-settings.png",
 	"selectedImage": "/images/iphone/db-settings-grey.png"
 },
 ".db-settings[platform=android]": {
-	"image": "android/db-android-settings.png",
+	"image": "/images/android/android-db-settings.png",
 	"selectedImage": "android/db-android-settings-grey.png"
 },
 ".db-settings[platform=ios formFactor=tablet]": {
 },
 ".db-calendar": {
-	"image": "/images/iphone/db-calendar.png",
+	"image": "/images/iphone/iphone-db-calendar.png",
 	"selectedImage": "/images/iphone/db-calendar-grey.png"
 },
 ".db-calendar[platform=android]": {
-	"image": "/images/android/db-android-calendar.png",
+	"image": "/images/android/android-db-calendar.png",
 	"selectedImage": "/images/android/db-android-calendar-grey.png"
 },
 ".db-calendar[platform=ios formFactor=tablet]": {
+},
+".db-zoom": {
+	"image": "/images/iphone/iphone-db-zoom.png",
+	"selectedImage": "/images/iphone/db-calendar-grey.png"
+},
+".db-zoom[platform=android]": {
+	"image": "/images/android/android-db-zoom.png",
+	"selectedImage": "/images/android/db-android-calendar-grey.png"
+},
+".db-zoom[platform=ios formFactor=tablet]": {
 },
 /*Messaging Colors*/
 ".message-grey": {

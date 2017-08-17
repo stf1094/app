@@ -1,0 +1,35 @@
+<Alloy>
+    <Window id="Window_1" class="bg-white" title="Log Exposure">
+        <View class="vgroup">
+            <View backgroundColor="#e6e6e6" class="top" height="6%">
+                <Label class="h5" color="#444444" left="5%" text="EXPOSURE TYPE" top="25%"/>
+            </View>
+            <View height="12%">
+                <Picker id="exposureList" left="5%">
+                    <PickerColumn>
+                        <PickerRow title="Face to Face"/>
+                        <PickerRow title="Phone"/>
+                        <PickerRow title="Zoom"/>
+                        <PickerRow title="Event"/>
+                        <PickerRow title="Email"/>
+                        <PickerRow title="Text"/>
+                    </PickerColumn>
+                </Picker>
+            </View>
+            <View backgroundColor="#e6e6e6" class="top" height="6%">
+                <Label class="h5" color="#444444" left="5%" text="DATE/TIME" top="25%"/>
+            </View>
+            <View height="2%"/>
+            <View height="16%">
+                <Picker id="dateTimePickerExposure" maxDate="2025,12,31" minDate="2017-08-12 2:15:00 Z" type="Titanium.UI.PICKER_TYPE_DATE_AND_TIME"/>
+            </View>
+            <View height="2%"/>
+            <View backgroundColor="#e6e6e6" class="top" height="6%">
+                <Label class="h5" color="#444444" left="5%" text="NOTES" top="25%"/>
+            </View>
+            <TextArea class="exposure-notes h5" id="exposureNotes" value="type exposure notes"/>
+            <Button class="le-button" top="15">LOG EXPOSURE</Button>
+            <View backgroundColor="#e6e6e6" height="30%" top="20"/>
+        </View>
+    </Window>
+</Alloy>

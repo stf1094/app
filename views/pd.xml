@@ -8,8 +8,8 @@
             <!-- <Button class="button-half1-full" left="5%" onClick="projectContacts" top="19%">Contacts</Button>
 	        <Button class="button-half1-full" onClick="projectHotlist" right="5%" top="19%">Hot List</Button> -->
             <View backgroundColor="#ececec" height="12%" left="0.00%" top="26%" width="100%">
-                <Label height="10%"   class="label-center"  color="black" text="Waiting to hear from you"/>
-                <Button height="25%" class="top-buffer ac-button-green" id="ivWaitingToHear" onClick="projectContacts">Add Your Contacts</Button>
+                <Label class="label-center" color="black" height="10%" text="Waiting to hear from you"/>
+                <Button class="top-buffer ac-button-green" height="25%" id="ivWaitingToHear" onClick="projectContacts">Add Your Contacts</Button>
                 <!--  <ImageView height="20" id="ivWaitingToHear" image="/images/iphone/plus-green.png" onClick="projectContacts" right="15%" width="20"/> -->
             </View>
             <View backgroundColor="#193441" height="1%" top="34%" width="100%"/>
@@ -34,4 +34,3 @@
         </ScrollView>
     </Window>
 </Alloy>
-

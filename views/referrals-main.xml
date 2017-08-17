@@ -1,0 +1,90 @@
+<Alloy>
+    <Window class="bg-white" id="Window_1" title="Referrals">
+        <View class="vgroup">
+            <View backgroundColor="#e6e6e6" height="3%"/>
+            <View height="12%">
+                <Button class="refer-button" height="65%">INVITE OTHERS</Button>
+            </View>
+            <View backgroundColor="#e6e6e6" class="separator" width="100%"/>
+            <View class="hgroup" height="8%">
+                <Label color="#444444" left="5%" text="Total Referrals" top="35%"/>
+                <Label class="total-referrals" color="#444444" text="27" top="35%"/>
+            </View>
+            <View backgroundColor="#e6e6e6" class="separator top-buffer" width="100%"/>
+            <TableView id="affiliateTable">
+                <TableViewSection headerTitle="Level 1">
+                    <TableViewRow class="hgroup referral-row">
+                        <Label class="h5 top-buffer" left="9%">Enhanced</Label>
+                        <Label class="h5 top-buffer en-referrals">12</Label>
+                    </TableViewRow>
+                    <TableViewRow class="hgroup referral-row">
+                        <Label class="h5 top-buffer" left="9%">Professional</Label>
+                        <Label class="h5 top-buffer pro-referrals">12</Label>
+                    </TableViewRow>
+                    <TableViewRow class="hgroup referral-row">
+                        <Label class="h5 top-buffer" left="9%">Enterprise</Label>
+                        <Label class="h5 top-buffer ent-referrals">12</Label>
+                    </TableViewRow>
+                </TableViewSection>
+                <TableViewSection headerTitle="Level 2">
+                    <TableViewRow class="hgroup referral-row">
+                        <Label class="h5 top-buffer" left="9%">Enhanced</Label>
+                        <Label class="h5 top-buffer en-referrals">12</Label>
+                    </TableViewRow>
+                    <TableViewRow class="hgroup referral-row">
+                        <Label class="h5 top-buffer" left="9%">Professional</Label>
+                        <Label class="h5 top-buffer pro-referrals">12</Label>
+                    </TableViewRow>
+                    <TableViewRow class="hgroup referral-row">
+                        <Label class="h5 top-buffer" left="9%">Enterprise</Label>
+                        <Label class="h5 top-buffer ent-referrals">12</Label>
+                    </TableViewRow>
+                </TableViewSection>
+                <TableViewSection headerTitle="Level 3">
+                    <TableViewRow class="hgroup referral-row">
+                        <Label class="h5 top-buffer" left="9%">Enhanced</Label>
+                        <Label class="h5 top-buffer en-referrals">12</Label>
+                    </TableViewRow>
+                    <TableViewRow class="hgroup referral-row">
+                        <Label class="h5 top-buffer" left="9%">Professional</Label>
+                        <Label class="h5 top-buffer pro-referrals">12</Label>
+                    </TableViewRow>
+                    <TableViewRow class="hgroup referral-row">
+                        <Label class="h5 top-buffer" left="9%">Enterprise</Label>
+                        <Label class="h5 top-buffer ent-referrals">12</Label>
+                    </TableViewRow>
+                </TableViewSection>
+                <TableViewSection headerTitle="Level 4">
+                    <TableViewRow class="hgroup referral-row">
+                        <Label class="h5 top-buffer" left="9%">Enhanced</Label>
+                        <Label class="h5 top-buffer en-referrals">12</Label>
+                    </TableViewRow>
+                    <TableViewRow class="hgroup referral-row">
+                        <Label class="h5 top-buffer" left="9%">Professional</Label>
+                        <Label class="h5 top-buffer pro-referrals">12</Label>
+                    </TableViewRow>
+                    <TableViewRow class="hgroup referral-row">
+                        <Label class="h5 top-buffer" left="9%">Enterprise</Label>
+                        <Label class="h5 top-buffer ent-referrals">12</Label>
+                    </TableViewRow>
+                </TableViewSection>
+                <TableViewSection headerTitle="Level 5">
+                    <TableViewRow class="hgroup referral-row">
+                        <Label class="h5 top-buffer" left="9%">Enhanced</Label>
+                        <Label class="h5 top-buffer en-referrals">12</Label>
+                    </TableViewRow>
+                    <TableViewRow class="hgroup referral-row">
+                        <Label class="h5 top-buffer" left="9%">Professional</Label>
+                        <Label class="h5 top-buffer pro-referrals">12</Label>
+                    </TableViewRow>
+                    <TableViewRow class="hgroup referral-row">
+                        <Label class="h5 top-buffer" left="9%">Enterprise</Label>
+                        <Label class="h5 top-buffer ent-referrals">12</Label>
+                    </TableViewRow>
+                </TableViewSection>
+            </TableView>
+            <Button class="refer-button" top="5%">INVITE OTHERS</Button>
+            <View backgroundColor="#e6e6e6" height="77%" top="5%"/>
+        </View>
+    </Window>
+</Alloy>

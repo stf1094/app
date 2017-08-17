@@ -41,132 +41,16 @@
 ".hotlist-row": {
 	"height": "140px"
 },
+".hotlist-row[platform=android]": {
+	"height": "190px"
+},
 "#scrollView": {
 	"height": "40.00%",
 	"left": "0.00%",
 	"top": "22.00%",
 	"width": "100.00%"
 },
-"#ImageView_1": {
-	"height": "125px",
-	"left": "1.5%",
-	"top": "25%",
-	"width": "125px"
-},
-"#ImageView_1[platform=ios formFactor=tablet]": {
-	"height": "175px",
-	"left": "1.5%",
-	"top": "25%",
-	"width": "175px"
-},
-"#ImageView_2": {
-	"height": "125px",
-	"left": "11%",
-	"top": "25%",
-	"width": "125px"
-},
-"#ImageView_2[platform=ios formFactor=tablet]": {
-	"height": "175px",
-	"left": "11%",
-	"top": "25%",
-	"width": "175px"
-},
-"#ImageView_10": {
-	"height": "125px",
-	"left": "87%",
-	"top": "25%",
-	"width": "125px"
-},
-"#ImageView_10[platform=ios formFactor=tablet]": {
-	"height": "175px",
-	"left": "87%",
-	"top": "25%",
-	"width": "175px"
-},
-"#ImageView_9": {
-	"height": "125px",
-	"left": "77.5%",
-	"top": "25%",
-	"width": "125px"
-},
-"#ImageView_9[platform=ios formFactor=tablet]": {
-	"height": "175px",
-	"left": "77.5%",
-	"top": "25%",
-	"width": "175px"
-},
-"#ImageView_8": {
-	"height": "125px",
-	"left": "68%",
-	"top": "25%",
-	"width": "125px"
-},
-"#ImageView_8[platform=ios formFactor=tablet]": {
-	"height": "175px",
-	"left": "68%",
-	"top": "25%",
-	"width": "175px"
-},
-"#ImageView_7": {
-	"height": "125px",
-	"width": "125px",
-	"left": "58.5%",
-	"top": "25%"
-},
-"#ImageView_7[platform=ios formFactor=tablet]": {
-	"height": "175px",
-	"left": "58.5%",
-	"top": "25%",
-	"width": "175px"
-},
-"#ImageView_6": {
-	"height": "125px",
-	"width": "125px",
-	"left": "49%",
-	"top": "25%"
-},
-"#ImageView_6[platform=ios formFactor=tablet]": {
-	"height": "175px",
-	"left": "49%",
-	"top": "25%",
-	"width": "175px"
-},
-"#ImageView_5": {
-	"height": "125px",
-	"width": "125px",
-	"left": "39.5%",
-	"top": "25%"
-},
-"#ImageView_5[platform=ios formFactor=tablet]": {
-	"height": "175px",
-	"left": "39.5%",
-	"top": "25%",
-	"width": "175px"
-},
-"#ImageView_4": {
-	"height": "125px",
-	"width": "125px",
-	"left": "30%",
-	"top": "25%"
-},
-"#ImageView_4[platform=ios formFactor=tablet]": {
-	"height": "175px",
-	"left": "30%",
-	"top": "25%",
-	"width": "175px"
-},
-"#ImageView_3": {
-	"height": "125px",
-	"width": "125px",
-	"left": "20.5%",
-	"top": "25%"
-},
-"#ImageView_3[platform=ios formFactor=tablet]": {
-	"height": "175px",
-	"left": "20.5%",
-	"top": "25%",
-	"width": "175px"
-},
+
 "#scrollableView": {
 	"height": "50%",
 	"left": "0.00%",

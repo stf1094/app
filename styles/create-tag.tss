@@ -1,0 +1,83 @@
+".tag-textfield": {
+	"backgroundColor": "#ffffff",
+	"color": "black",
+	"left": "5%",
+	"height": "100%",
+	"width": "85%"
+},
+".tag-textfield[platform=ios formFactor=tablet]": {
+	"backgroundColor": "#ffffff",
+	"color": "black",
+	"left": "5%",
+	"height": "100px",
+	"width": "85%"
+},
+".tag-textfield[platform=android]": {
+	"backgroundColor": "#ffffff",
+	"color": "black",
+	"left": "5%",
+	"height": "90%",
+	"width": "85%",
+	"hintTextColor": "#e6e6e6"
+},
+"#Window_1": {
+	"title": "Window",
+},
+".tag-button": {
+	"left": "5%",
+	"width": "90%",
+	"height": "6.75%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".tag-button[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "90px",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".tag-button[platform=android]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "8%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".tag-button2": {
+	"left": "5%",
+	"width": "90%",
+	"height": "6.75%",
+	"backgroundColor": "white",
+	"borderRadius": "10",
+	"borderColor": "#f7941d",
+	"color": "#f7941d",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".tag-button2[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "90px",
+	"backgroundColor": "white",
+	"borderColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "#f7941d",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".tag-button2[platform=android]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "8%",
+	"backgroundColor": "white",
+	"borderRadius": "10",
+	"borderColor": "#f7941d",
+	"color": "#f7941d",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+

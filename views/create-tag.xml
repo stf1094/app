@@ -1,0 +1,16 @@
+<Alloy>
+    <Window class="bg-white" id="Window_1" title="Create Tag">
+        <View class="vgroup">
+            <View backgroundColor="#e6e6e6" class="top" height="6%">
+                <Label class="h5" color="#444444" left="5%" text="TAG NAME" top="25%"/>
+            </View>
+            <View height="9%">
+                <TextField class="tag-textfield" hintText="enter tag name"/>
+            </View>
+            <View class="separator" color="e6e6e6" width="100%"/>
+            <Button class="tag-button2" top="25">ADD CONTACTS TO TAG</Button>
+            <Button class="tag-button" top="15">CREATE TAG</Button>
+            <View backgroundColor="#e6e6e6" height="70%" top="25"/>
+        </View>
+    </Window>
+</Alloy>
