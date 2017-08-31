@@ -12,7 +12,7 @@
 ".hotlist-cover": {
 	"left": "0.00%",
 	"top": "0.00%",
-	"image": "/images/iphone/ui-hotlist-cover.png",
+	"image": "/images/iphone/hotlist-iphone-cover.png",
 	"width": "100%"
 },
 ".hotlist-cover[platform=android]": {

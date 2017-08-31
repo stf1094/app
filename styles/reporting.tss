@@ -4,5 +4,32 @@
 	"title": "Window",
 },
 ".reporting-cover": {
-	"image": "/images/iphone/reporting-cover_1.png"
-}
+	"image": "/images/iphone/reporting-iphone-header.png"
+},
+".reporting-cover[platform=android]": {
+	"image": "/images/android/reporting-android-header.png"
+},
+".reporting-cover[platform=ios formFactor=tablet]": {
+	"image": "/images/ipad/reporting-ipad-header.png"
+},
+".lg-reporting": {
+	"left": "61.5%"
+},
+".exp-reporting": {
+	"left": "63.5%"
+},
+".exp-reporting[platform=android]": {
+	"left": "63.25%"
+},
+".ent-referrals": {
+	"left": "63.5%"
+},
+".ent-referrals[platform=android]": {
+	"left": "63.75%"
+},
+".reporting-row": {
+	"height": "90px"
+},
+".reporting-row[platform=android]": {
+	"height": "140px"
+},
