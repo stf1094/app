@@ -1,0 +1,27 @@
+<Alloy>
+    <Window id="Window_1">
+    	<View class="vgroup bg-white">
+    		<ImageView class="zoom-cover"/>
+    		<Button class="zoom-db-button top-buffer">CREATE MEETING</Button>
+    		<TableView separatorColor="#c6c6c6" top="2%">
+    			<TableViewSection headerTitle="Upcoming Meetings">
+    				<TableViewRow class="zoom-row hgroup">
+    					<Label class="h5 zoom-info" left="5%">INFO: </Label>
+    					<Label class="h5 zoom-info">October's Big Event</Label>
+    					<Label class="h5 zoom-info">10/1/17, 4:00</Label>
+    				</TableViewRow>
+    				<TableViewRow class="zoom-row hgroup">
+    					<Label class="h5 zoom-info" left="5%">INFO: </Label>
+    					<Label class="h5 zoom-info">November's Big Event</Label>
+    					<Label class="h5 zoom-info">10/1/17, 4:00</Label>
+    				</TableViewRow>
+    				<TableViewRow class="zoom-row hgroup">
+    					<Label class="h5 zoom-info" left="5%">INFO: </Label>
+    					<Label class="h5 zoom-info">December's Big Event</Label>
+    					<Label class="h5 zoom-info">10/1/17, 4:00</Label>
+    				</TableViewRow>
+    			</TableViewSection>
+    		</TableView>
+    	</View>
+    </Window>
+</Alloy>

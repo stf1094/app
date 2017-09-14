@@ -1,0 +1,4 @@
+<Alloy>
+	<!--The screen for adding contacts to a scheduled zoom meeting, see the adobeXD for design-->
+    <Window class="bg-white"/>
+</Alloy>

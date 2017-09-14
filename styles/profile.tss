@@ -55,6 +55,9 @@ text: "\uf095"
 ".icon-calendar": {
 	"text": "\uf073"
 },
+".icon-zoom": {
+	"text": "\uf03d"
+},
 ".icon-btn": {
 	"height": 60,
 	"width": 60,
@@ -105,4 +108,129 @@ text: "\uf095"
 "#pkNo": {
 },
 "#contactInfo": {
-}
+},
+/*Messaging, Exposure Colors*/
+".message-grey": {
+	"backgroundColor": "#ececec",
+	"borderRadius": "8",
+	"color": "black",
+	"width": "70%",
+	"height": "75px",
+	"top": "10",
+	"left": "10"
+},
+".message-grey[platform=android]": {
+	"backgroundColor": "#ececec",
+	"borderRadius": "8",
+	"color": "black",
+	"width": "70%",
+	"height": "130px",
+	"top": "10",
+	"left": "10"
+},
+".message-orange": {
+	"backgroundColor": "#f7941d",
+	"borderRadius": "8",
+	"color": "white",
+	"width": "70%",
+	"height": "75px",
+	"top": "10",
+	"right": "10"
+},
+".message-orange[platform=android]": {
+	"backgroundColor": "#f7941d",
+	"borderRadius": "8",
+	"color": "white",
+	"width": "70%",
+	"height": "130px",
+	"top": "10",
+	"right": "10"
+},
+".phone-exp": {
+	"color": "black",
+	"borderColor": "#f2aa5c",
+	"borderWidth": "1",
+	"backgroundColor": "white",
+	"borderRadius": "8",
+	"height": "75px",
+	"top": "10",
+	"left": "10",
+	"right": "10"
+},
+".phone-exp[platform=android]": {
+	"color": "black",
+	"borderColor": "#f2aa5c",
+	"borderWidth": "1",
+	"backgroundColor": "white",
+	"borderRadius": "8",
+	"height": "130px",
+	"top": "10",
+	"left": "10",
+	"right": "10"
+},
+".zoom-exp": {
+	"color": "black",
+	"borderColor": "#5c777d",
+	"borderWidth": "1",
+	"backgroundColor": "white",
+	"borderRadius": "8",
+	"height": "75px",
+	"top": "10",
+	"left": "10",
+	"right": "10"
+},
+".zoom-exp[platform=android]": {
+	"color": "black",
+	"borderColor": "#5c777d",
+	"borderWidth": "1",
+	"backgroundColor": "white",
+	"borderRadius": "8",
+	"height": "130px",
+	"top": "10",
+	"left": "10",
+	"right": "10"
+},
+".f2f-exp": {
+	"color": "black",
+	"borderColor": "#afd274",
+	"borderWidth": "1",
+	"backgroundColor": "white",
+	"borderRadius": "8",
+	"height": "75px",
+	"top": "10",
+	"left": "10",
+	"right": "10"
+},
+".f2f-exp[platform=android]": {
+	"color": "black",
+	"borderColor": "#afd274",
+	"borderWidth": "1",
+	"backgroundColor": "white",
+	"borderRadius": "8",
+	"height": "130px",
+	"top": "10",
+	"left": "10",
+	"right": "10"
+},
+".event-exp": {
+	"color": "black",
+	"borderColor": "#f05e68",
+	"borderWidth": "1",
+	"backgroundColor": "white",
+	"borderRadius": "8",
+	"height": "75px",
+	"top": "10",
+	"left": "10",
+	"right": "10"
+},
+".event-exp[platform=android]": {
+	"color": "black",
+	"borderColor": "#f05e68",
+	"borderWidth": "1",
+	"backgroundColor": "white",
+	"borderRadius": "8",
+	"height": "130px",
+	"top": "10",
+	"left": "10",
+	"right": "10"
+},

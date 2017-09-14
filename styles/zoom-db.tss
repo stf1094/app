@@ -1,0 +1,54 @@
+"#Window_1": {
+	"title": "Window",
+},
+".zoom-cover": {
+	"image": "/images/iphone/zoom-iphone-cover.png"
+},
+".zoom-cover[platform=android]": {
+	"image": "/images/android/zoom-android-cover.png"
+},
+".zoom-db-button": {
+	"left": "5%",
+	"width": "90%",
+	"height": "6.75%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".zoom-db-button[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "90px",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".zoom-db-button[platform=android]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "8%",
+	"backgroundColor": "#f7941d",
+	"borderRadius": "10",
+	"color": "white",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".zoom-row": {
+	"height": "90px"
+},
+".zoom-row[platform=android]": {
+	"height": "140px"
+},
+".zoom-info": {
+	"left": "1%",
+	"top": "30%",
+	"color": "grey"
+},
+".zoom-info[platform=android]": {
+	"left": "1%",
+	"top": "20%",
+	"color": "grey"
+}
+
+
