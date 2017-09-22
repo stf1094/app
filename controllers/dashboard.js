@@ -136,3 +136,9 @@ Ti.App.addEventListener('app.gotoMasterDirectory', function(e) {
 	Alloy.Globals.Navigator.open("directory");
 });
 
+//quick actions button 
+function showQuickActions() {
+	$.quickActions.show();
+}
+
+
