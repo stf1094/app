@@ -415,6 +415,9 @@
 	"width": "13.88%",
 	"image": "/images/iphone/project-shuriken.png"
 },
+".settings-logo": {
+	"image": "/images/iphone/networkninjas-logo-grey.png"
+},
 ".form1": {
 	"left": "5%",
 	"right": "5%",

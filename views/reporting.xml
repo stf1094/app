@@ -1,38 +1,37 @@
 <Alloy>
     <Window class="vgroup bg-white" id="Window_1">
         <ImageView class="reporting-cover top"/>
-               <TableView id="reportingTable">
-                <TableViewSection headerTitle="Last 7 Days">
-                    <TableViewRow class="hgroup reporting-row">
-                        <Label class="h5 top-buffer" left="9%">List Growth</Label>
-                        <Label class="h5 top-buffer lg-reporting">12</Label>
-                    </TableViewRow>
-                    <TableViewRow class="hgroup reporting-row">
-                        <Label class="h5 top-buffer" left="9%">Exposures</Label>
-                        <Label class="h5 top-buffer exp-reporting">12</Label>
-                    </TableViewRow>
-                </TableViewSection>
-                <TableViewSection headerTitle="Last 14 Days">
-                    <TableViewRow class="hgroup reporting-row">
-                        <Label class="h5 top-buffer" left="9%">List Growth</Label>
-                        <Label class="h5 top-buffer lg-reporting">12</Label>
-                    </TableViewRow>
-                    <TableViewRow class="hgroup reporting-row">
-                        <Label class="h5 top-buffer" left="9%">Exposures</Label>
-                        <Label class="h5 top-buffer exp-reporting">12</Label>
-                    </TableViewRow>
-                </TableViewSection>
-                <TableViewSection headerTitle="Last 30 Days">
-                    <TableViewRow class="hgroup reporting-row">
-                        <Label class="h5 top-buffer" left="9%">List Growth</Label>
-                        <Label class="h5 top-buffer lg-reporting">12</Label>
-                    </TableViewRow>
-                    <TableViewRow class="hgroup reporting-row">
-                        <Label class="h5 top-buffer" left="9%">Exposures</Label>
-                        <Label class="h5 top-buffer exp-reporting">12</Label>
-                    </TableViewRow>
-                </TableViewSection>
-                </TableView>
+        <TableView id="reportingTable">
+            <TableViewSection headerTitle="Last 7 Days">
+                <TableViewRow class="hgroup reporting-row">
+                    <Label class="h5 top-buffer" left="9%">List Growth</Label>
+                    <Label class="h5 top-buffer lg-reporting">12</Label>
+                </TableViewRow>
+                <TableViewRow class="hgroup reporting-row">
+                    <Label class="h5 top-buffer" left="9%">Exposures</Label>
+                    <Label class="h5 top-buffer exp-reporting">12</Label>
+                </TableViewRow>
+            </TableViewSection>
+            <TableViewSection headerTitle="Last 14 Days">
+                <TableViewRow class="hgroup reporting-row">
+                    <Label class="h5 top-buffer" left="9%">List Growth</Label>
+                    <Label class="h5 top-buffer lg-reporting">12</Label>
+                </TableViewRow>
+                <TableViewRow class="hgroup reporting-row">
+                    <Label class="h5 top-buffer" left="9%">Exposures</Label>
+                    <Label class="h5 top-buffer exp-reporting">12</Label>
+                </TableViewRow>
+            </TableViewSection>
+            <TableViewSection headerTitle="Last 30 Days">
+                <TableViewRow class="hgroup reporting-row">
+                    <Label class="h5 top-buffer" left="9%">List Growth</Label>
+                    <Label class="h5 top-buffer lg-reporting">12</Label>
+                </TableViewRow>
+                <TableViewRow class="hgroup reporting-row">
+                    <Label class="h5 top-buffer" left="9%">Exposures</Label>
+                    <Label class="h5 top-buffer exp-reporting">12</Label>
+                </TableViewRow>
+            </TableViewSection>
+        </TableView>
     </Window>
 </Alloy>
-

@@ -1,0 +1,6 @@
+<Alloy>
+	<!--A View for selecting contacts to send a referral to. See the adobeXD for design.-->
+	<!--View requires adding list of contacts from the database-->
+	<!--Needs a button at the top to confirm the added contacts-->
+    <Window id="Window_1"/>
+</Alloy>
