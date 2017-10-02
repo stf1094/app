@@ -73,6 +73,41 @@ text: "\uf095"
 ".icon-small": {
 	"font": {fontSize:18}
 },
+
+/*Submit Project Status Button*/
+".ps-btn": {
+	"left": "5%",
+	"width": "90%",
+	"height": "6.75%",
+	"backgroundColor": "white",
+	"borderRadius": "10",
+	"borderColor": "#f7941d",
+	"borderWidth": "1.5",
+	"color": "#f7941d",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".ps-btn[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "90px",
+	"backgroundColor": "white",
+	"borderRadius": "10",
+	"borderColor": "#f7941d",
+	"borderWidth": "1.5",
+	"color": "#f7941d",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".ps-btn[platform=android]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "7%",
+	"backgroundColor": "white",
+	"borderRadius": "10",
+	"borderColor": "#f7941d",
+	"borderWidth": "1.5",
+	"color": "#f7941d",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
 /**
 * 	MobileWeb Specific Styles
 */
@@ -109,7 +144,7 @@ text: "\uf095"
 },
 "#contactInfo": {
 },
-/*Messaging, Exposure Colors*/
+/*Messaging, Exposure Colors for Consolidated Thread*/
 ".message-grey": {
 	"backgroundColor": "#ececec",
 	"borderRadius": "8",
@@ -233,4 +268,90 @@ text: "\uf095"
 	"top": "10",
 	"left": "10",
 	"right": "10"
+},
+".fb-exp": {
+	"color": "black",
+	"borderColor": "blue",
+	"borderWidth": "1",
+	"backgroundColor": "white",
+	"borderRadius": "8",
+	"height": "75px",
+	"top": "10",
+	"left": "10",
+	"right": "10"
+},
+".fb-exp[platform=android]": {
+	"color": "black",
+	"borderColor": "blue",
+	"borderWidth": "1",
+	"backgroundColor": "white",
+	"borderRadius": "8",
+	"height": "130px",
+	"top": "10",
+	"left": "10",
+	"right": "10"
+},
+".linkedin-exp": {
+	"color": "black",
+	"borderColor": "blue",
+	"borderWidth": "1",
+	"backgroundColor": "white",
+	"borderRadius": "8",
+	"height": "75px",
+	"top": "10",
+	"left": "10",
+	"right": "10"
+},
+".linkedin-exp[platform=android]": {
+	"color": "black",
+	"borderColor": "blue",
+	"borderWidth": "1",
+	"backgroundColor": "white",
+	"borderRadius": "8",
+	"height": "130px",
+	"top": "10",
+	"left": "10",
+	"right": "10"
+},
+
+".separator-blue": {
+	"height": "2",
+	"width": "100%",
+	"backgroundColor": "#5c777d"
+},
+/*Project Status Picker, for Changing project Status*/
+".project-picker": {
+	
+},
+".project-picker[platform=android]": {
+	"height": "150px",
+	"color": "#444444",
+	"borderColor": "#5c777d",
+	"borderRadius": "4",
+	"borderWidth": "2",
+	"left": "5%",
+	"top": "10",
+	"width": "65%"
+},
+".project-picker-row": {
+	
+},
+".project-picker-row[platform=android]": {
+	"color": "#5c777d"
+},
+
+/*Send Button, for Messaging or Responding in the Thread*/
+".send-green": {
+	"height": "90px",
+	"width": "44%",
+	"backgroundColor": "#afd274",
+	"color": "white",
+	"borderRadius": "10"
+},
+".send-green[platform=android]": {
+	"height": "175px",
+	"width": "43%",
+	"backgroundColor": "#afd274",
+	"color": "white",
+	"borderRadius": "10"
 },
