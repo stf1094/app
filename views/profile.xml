@@ -38,7 +38,7 @@
             <View class="hgroup size" top="20">
                 <Label class="icon icon-btn icon-facebook" id="fbBtn" onClick="faceBook"/>
                 <Label class="icon icon-btn icon-linkedin" id="liBtn"/>
-                <Label class="icon icon-btn icon-googleplus" id="googBtn" onClick="openGoogleDialog"/>
+                <Label class="icon icon-btn icon-zoom" id="googBtn" onClick="openGoogleDialog"/>
             </View>
             <View class="separator"/>
             <!-- Contact Information -->
@@ -52,26 +52,27 @@
                 <View class="hgroup top-buffer size" id="vwFollowup" visible="false">
                     <Label class="h6 gray left-buffer" height="20%" id="asdfadsf" platform="ios">Actions:</Label>
                     <Label class="h6 gray left-buffer" id="asdfadsf" platform="android">Actions:</Label>
-                    <Picker height="45%" id="actionPicker" platform="ios" width="55%">
+                    <Picker height="45%" id="actionPicker" class="project-picker" platform="ios">
                         <PickerColumn backgroundColor="black" id="actionColumn">
                             <PickerRow color="#cc6600" id="pkFollowup" title="Follow-up"/>
                             <PickerRow color="#cc6600" id="pkYes" title="Yes"/>
                             <PickerRow color="#cc6600" id="pkNo" title="No"/>
                         </PickerColumn>
                     </Picker>
-                    <Picker id="actionPicker" platform="android" width="150">
+                    <Picker id="actionPicker" class="project-picker" platform="android">
                         <PickerColumn backgroundColor="black" id="actionColumn">
-                            <PickerRow color="#cc6600" id="pkFollowup" title="Follow-up"/>
-                            <PickerRow color="#cc6600" id="pkYes" title="Yes"/>
-                            <PickerRow color="#cc6600" id="pkNo" title="No"/>
+                            <PickerRow class="project-picker-row" id="pkFollowup" title="Follow-up"/>
+                            <PickerRow class="project-picker-row" id="pkYes" title="Yes"/>
+                            <PickerRow class="project-picker-row" id="pkNo" title="No"/>
                         </PickerColumn>
                     </Picker>
-                    <View class="hgroup top-buffer size" height="45%" platform="ios">
+                    
+                  <!-->  <View class="hgroup top-buffer size" height="45%" platform="ios">
                         <Button class="button-half1-full" onClick="backToPD" width="125">Back</Button>
                     </View>
                     <View class="hgroup top-buffer size" platform="android">
                         <Button class="button-half1-full" onClick="backToPD" width="150">Back</Button>
-                    </View>
+                    </View> -->
                 </View>
             </View>
             <View class="separator"/>
