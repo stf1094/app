@@ -5,53 +5,56 @@
             <Label class="title">Network Ninja Profile</Label>
         </TitleControl>
         <ActionBar displayHomeAsUp="true" onHomeIconItemSelected="closeWindow" platfor="android"/>
+        
         <!--
 		Profile Page
 		- A ScrollView that an end user can swipe to show more information about the user.
 		- Information View, shows phone, email, IM
 		- About View, a blurb of text about the user
-		- MapView shows an annotation of where the user is located
+		- The user can swipe left/right to toggle between "info" and "thread" -- as indicated in the arrows
+		- A list of recent messages seen between the user and this contact (thread)
+		- Views with bg-white and 4%, 2%, 1% height are used to break up space (rather than top-buffer or top="10")
 		-->
-        <ScrollView backgroundColor="#f9f9f9" class="vgroup top" id="contactInfo">
-            <!--
-			Map View
-			Leverages the Map Module, allowing for v2 of Google Maps and latest codebase unifying Google v2 and IOS
 		
-            <Module class="no-touch top" id="mapview" method="createView" module="ti.map" platform="android,ios,windows"/>
-            <View class="buffer border-dark-thick no-touch top" id="mapview" ns="Ti.Map" platform="mobileweb"/>
-            
-            	-->
+		<!--Scrollable View allows horizontal swiping-->
+		<ScrollableView>
+        <ScrollView backgroundColor="#f9f9f9" class="vgroup top" id="contactInfo">
+           <!--View that shows right arrow, indicating the user to swipe-->
+            <View class="hgroup size" height="60">
+                    <Label class="icon arrow-right" top="20" left="92%"></Label>
+            </View>
             <!-- User Information -->
             <View class="vgroup top size">
                 <ImageView height="40" id="profileImage" image="/images/iphone/project-shuriken.png" top="20" width="40"/>
-                <Label class="h3 red top-buffer no-touch" id="name">The Ninja</Label>
+                <Label class="h3 top-buffer no-touch" id="name">The Ninja</Label>
                 <Label class="h5 gray no-touch" id="job">Your ninja</Label>
                 <Label class="h5 gray no-touch" id="company">Alvarium Systems, Inc</Label>
                 <Button class="h4 span-width top-buffer" id="addFavoriteBtn" onClick="toggleFavorite" textid="bookmarkBtn">+ Add To Favorites</Button>
             </View>
+            <View class="bg-white" height="2%"/>
             <!-- User Actions -->
-            <View class="hgroup top-buffer size">
+            <View class="hgroup size bg-white">
                 <Label class="icon icon-btn icon-phone" id="callBtn" onClick="showPhoneOptions"/>
                 <Label class="icon icon-btn icon-email" id="emailBtn" onClick="showEmailOptions"/>
                 <Label class="icon icon-btn icon-message" id="msgBtn" onClick="openSmsDialog"/>
             </View>
-            <View class="hgroup size" top="20">
+            <View class="bg-white" height="1%"/>
+            <View class="hgroup size bg-white">
                 <Label class="icon icon-btn icon-facebook" id="fbBtn" onClick="faceBook"/>
                 <Label class="icon icon-btn icon-linkedin" id="liBtn"/>
-                <Label class="icon icon-btn icon-zoom" id="googBtn" onClick="openGoogleDialog"/>
+                <Label class="icon icon-btn icon-zoom" id="googBtn" onClick=""/>
             </View>
-            <View class="separator"/>
-            <!-- Contact Information -->
-            <View class="buffer vgroup size">
-                <View class="hgroup size left-buffer top-buffer">
-                    <Label class="icon icon-btn icon-calendar" left="1%" onClick="scheduleFollowup"/>
-                    <Label class="h6 gray left-buffer" id="afsdads">Follow-up date:</Label>
-                    <Label class="h6 gray left-buffer" id="lblFollowupDate" text=""/>
-                </View>
-                <View class="separator"/>
-                <View class="hgroup top-buffer size" id="vwFollowup" visible="false">
-                    <Label class="h6 gray left-buffer" height="20%" id="asdfadsf" platform="ios">Actions:</Label>
-                    <Label class="h6 gray left-buffer" id="asdfadsf" platform="android">Actions:</Label>
+            <View class="bg-white" height="4%"/>
+            <View class="blue-separator"/>
+              <!--Project Status, this View repeats if contact is part of more than 1 project-->
+                     <View>
+                        <View backgroundColor="#f5f5f5" height="7%">
+                            <Label class="h5" color="#444444" left="5%" text="PROJECT NAME"/>
+                        </View>
+                        <Label class="h5 top-buffer" left="5%" text="Project Status: Waiting to hear from you"/>
+                       
+                        <Label class="h5" left="5%" text="Change Status:" top="20"/>
+                	
                     <Picker height="45%" id="actionPicker" class="project-picker" platform="ios">
                         <PickerColumn backgroundColor="black" id="actionColumn">
                             <PickerRow color="#cc6600" id="pkFollowup" title="Follow-up"/>
@@ -66,33 +69,90 @@
                             <PickerRow class="project-picker-row" id="pkNo" title="No"/>
                         </PickerColumn>
                     </Picker>
-                    
+                    <Button class="ps-btn">SUBMIT STATUS</Button>
+                    </View>
                   <!-->  <View class="hgroup top-buffer size" height="45%" platform="ios">
                         <Button class="button-half1-full" onClick="backToPD" width="125">Back</Button>
                     </View>
                     <View class="hgroup top-buffer size" platform="android">
                         <Button class="button-half1-full" onClick="backToPD" width="150">Back</Button>
                     </View> -->
+                    
                 </View>
-            </View>
-            <View class="separator"/>
-            <!-- User Information -->
-            <ScrollView backgroundColor="#f9f9f9" class="vgroup" height="50%" visible="false">
-                <View class="left-buffer top-buffer message-grey" height="10%"/>
-                <View class="right-buffer top-buffer message-orange" height="10%">
-                    <Label class="h5" color="white">Message content</Label>
-                </View>
-                <View class="left-buffer top-buffer message-grey" height="10%"/>
-                <View class="right-buffer top-buffer message-orange" height="10%"/>
-                <View class="left-buffer top-buffer message-grey" height="10%"/>
-                <View class="right-buffer top-buffer message-orange" height="10%"/>
-                <View class="left-buffer top-buffer message-grey" height="10%"/>
-                <View class="right-buffer top-buffer message-orange" height="10%"/>
-            </ScrollView>
-            <View class="hgroup top-buffer" height="10%" visible="false">
-                <TextField class="textfield-profile"/>
-                <Button class="send left-buffer h2" top="15">&gt;</Button>
+                   <View class="bg-white" height="4%"/>
+                   <View class="blue-separator"/>
+                    <!--Phone Number-->
+                    <View backgroundColor="#f5f5f5" height="7%">
+                        <Label class="h5" left="5%" text="Phone Number"/>
+                    </View>
+                    <View class="separator" width="100%"/>
+                    <!--Emails-->
+                    <View backgroundColor="#f5f5f5" height="7%">
+                        <Label class="h5" left="5%" text="Email"/>
+                    </View>
+                    <View class="separator" width="100%"/>
+                    <!--Preferred Comm. Method-->
+                    <View backgroundColor="#f5f5f5" height="7%">
+                        <Label class="h5" left="5%" text="PCM: 508-123-1234"/>
+                    </View>
+                    <View class="separator" width="100%"/>
+                    <!--Log an Exposure: On click go to log-exposure.xml-->
+                    <View class="bg-white" height="7%">
+                        <Label class="h5" color="blue" left="5%" text="Log Exposure"/>
+                    </View>
+                    <View class="separator" width="100%"/>
+                    <View class="bg-white" height="7%">
+                        <Label class="h5" color="blue" left="5%" text="Add to Hot List"/>
+                    </View>
+                    <View class="separator" width="100%"/>
+                    <!--Refer to NN: Should open up a message with that person with user's affiliate link and message-->
+                    <View class="bg-white" height="7%">
+                        <Label class="h5" color="blue" left="5%" text="Refer to Network Ninjas"/>
+                    </View>
+                    <View class="separator" width="100%"/>
+                    <View backgroundColor="#f5f5f5" height="4%"/>
             </View>
         </ScrollView>
+        <View class="bg-white vgroup">
+              	 <View class="hgroup size" height="60">
+                     <Label class="icon arrow-left" top="20" right="84%"></Label>
+                 </View>
+		  		 <ScrollView backgroundColor="#f9f9f9" class="vgroup" height="77%">
+                    <View class="left-buffer top-buffer message-grey"/>
+                    <View class="right-buffer top-buffer message-orange">
+                        <Label class="h5" color="white">Message content</Label>
+                    </View>
+                    <View class="message-grey"/>
+                    <View class="message-orange"/>
+                    <View class="message-grey"/>
+                    <View class="message-orange"/>
+                    <View class="message-grey"/>
+                    <View class="message-orange"/>
+                    <View class="phone-exp">
+                        <Label class="h5">Phone Exposure</Label>
+                    </View>
+                    <View class="zoom-exp">
+                        <Label class="h5">Zoom Video Exposure</Label>
+                    </View>
+                    <View class="f2f-exp">
+                        <Label class="h5">In Person Exposure</Label>
+                    </View>
+                    <View class="event-exp">
+                        <Label class="h5">Event Exposure</Label>
+                    </View>
+                    <!--<View class="fb-exp">
+                        <Label class="h5">Facebook Exposure</Label>
+                    </View>
+                    <View class="linkedin-exp">
+                        <Label class="h5">LinkedIn Exposure</Label>
+                    </View>-->
+                </ScrollView>
+                <View backgroundColor="#f9f9f9" height="2%"/>
+                <View class="hgroup size" height="60">
+                    <Button class="h5" top="15">Respond with Text</Button>
+                    <Button class="left-buffer h5" top="15">Respond with Email</Button>
+                </View>
+		  </View>
+        </ScrollableView>
     </Window>
 </Alloy>

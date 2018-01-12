@@ -74,6 +74,13 @@ text: "\uf095"
 	"font": {fontSize:18}
 },
 
+".arrow-right": {
+	"text": "\uf054"
+}
+".arrow-left": {
+	"text": "\uf053"
+}
+
 /*Submit Project Status Button*/
 ".ps-btn": {
 	"left": "5%",
@@ -314,8 +321,8 @@ text: "\uf095"
 	"right": "10"
 },
 
-".separator-blue": {
-	"height": "2",
+".blue-separator": {
+	"height": "4",
 	"width": "100%",
 	"backgroundColor": "#5c777d"
 },
