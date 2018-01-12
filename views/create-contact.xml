@@ -1,0 +1,46 @@
+<Alloy>
+    <Window title="Create Contact" id="Window_1">
+    	<!--Create Contact View:
+    	  - Wrapped in a ScrollView for potential scrolling, if user were to add more emails, phone #s
+    	-->
+    	<ScrollView>
+    	<View class="vgroup">
+    		<View class="bg-white hgroup" height="9%">
+    			<Button class="top-buffer" left="5%">Cancel</Button>
+    			<Button class="top-buffer" left="67%">Save</Button>
+    		</View>
+    	    <View class="form-title">
+                <Label class="h5 form-label" text="FIRST NAME"/>
+            </View>
+            <View height="9%">
+                <TextField class="ap-textfield" hintText="enter first name"/>
+            </View>
+            <View class="form-title">
+                <Label class="h5 form-label" text="LAST NAME"/>
+            </View>
+            <View height="9%">
+                <TextField class="ap-textfield" hintText="enter last name"/>
+            </View>
+            <View class="form-title">
+                <Label class="h5 form-label" text="COMPANY"/>
+            </View>
+            <View height="9%">
+                <TextField class="ap-textfield" hintText="enter company"/>
+            </View>
+            <View class="form-title">
+                <Label class="h5 form-label" text="EMAIL"/>
+            </View>
+            <View height="9%">
+                <TextField class="ap-textfield" hintText="enter email"/>
+            </View>
+            <View class="form-title">
+                <Label class="h5 form-label" text="PHONE"/>
+            </View>
+            <View height="9%">
+                <TextField class="ap-textfield" hintText="enter phone number"/>
+            </View>
+             <View backgroundColor="#e6e6e6" class="top" height="24%"></View>
+            </View>
+            </ScrollView>
+    </Window>
+</Alloy>

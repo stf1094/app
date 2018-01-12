@@ -612,6 +612,39 @@
 	"backgroundColor": "#ececec",
 	"borderRadius": "10"
 },
+/*Main form fields for Creating Contacts, Tags, Zooms, Settings Views*/ 
+".ap-textfield": {
+	"backgroundColor": "#ffffff",
+	"color": "black",
+	"left": "5%",
+	"height": "100%",
+	"width": "85%"
+},
+".ap-textfield[platform=ios formFactor=tablet]": {
+	"backgroundColor": "#ffffff",
+	"color": "black",
+	"left": "5%",
+	"height": "100px",
+	"width": "85%"
+},
+".ap-textfield[platform=android]": {
+	"backgroundColor": "#ffffff",
+	"color": "black",
+	"left": "5%",
+	"height": "90%",
+	"width": "85%",
+	"hintTextColor": "#e6e6e6"
+},
+".form-title": {
+	"top": "0",
+	"backgroundColor": "#e6e6e6",
+	"height": "5%"
+},
+".form-label": {
+	"top": "15%",
+	"left": "5%",
+	"color": "#444444"
+},
 /*LABELS*/
 ".label-center": {
 	"font": {fontSize:'14',fontFamily:'',fontStyle:'',fontWeight:'normal'},
