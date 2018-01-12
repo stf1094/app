@@ -39,8 +39,28 @@
             <View height="9%">
                 <TextField class="ap-textfield" hintText="enter phone number"/>
             </View>
-             <View backgroundColor="#e6e6e6" class="top" height="24%"></View>
+                    <View class="form-title">
+                <Label class="h5 form-label" text="PREFERRED COMMUNICATION METHOD"/>
+            </View>
+            <!--Choose PCM Button launches the Option Dialog-->
+            <View height="9%">
+                <Button left="5%" onClick="pcmOptions">Choose PCM</Button>
+            </View>
+             <View backgroundColor="#e6e6e6" class="top" height="10%"></View>
             </View>
             </ScrollView>
+            <!-- Options for chooseing PCM -->
+            <OptionDialog id="pcmOptions" title="Preferred Communication Method">
+               <Options>
+                   <Option>Phone Number</Option>
+                   <Option>Email 1</Option>
+                   <Option>Email 2</Option>
+                   <Option>Etc</Option>
+                   <Option platform="ios">Cancel</Option>
+               </Options>
+               <ButtonNames>
+                   <ButtonName>Cancel</ButtonName>
+               </ButtonNames>
+           </OptionDialog>
     </Window>
 </Alloy>
