@@ -642,6 +642,18 @@
 	"height": "700px",
 	"width": "850px"
 },
+".qa-btn": {
+	"height": "47",
+	"width": "47",
+	"color": "#193441",
+	"borderRadius": "23",
+	"borderWidth": "2",
+	"borderColor": "#ffffff",
+	"backgroundColor": "#ffffff",
+	"textAlign": "center",
+	"font": {fontSize:24},
+	"left": "43.5%"
+},
 /*Dashbaord*/
 ".db1": {
 	"left": ".25%",
@@ -660,11 +672,11 @@
 },
 ".dashboard": {
 	"height": "75%",
-	"top": "15%"
+	"top": "13%"
 },
 ".dashboard[platform=android]": {
 	"height": "75%",
-	"top": "15%"
+	"top": "13%"
 },
 ".db-contacts": {
 	"image": "/images/iphone/iphone-db-contacts.png",

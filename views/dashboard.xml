@@ -1,6 +1,6 @@
 <Alloy>
     <Window onOpen="onInitLoad">
-        <View class="top" height="15%" left="0%">
+        <View class="top" height="13%" left="0%">
             <ImageView class="dojo-cover"/>
             <Label color="white" right="8%" text="welcome," top="15%"/>
             <Label class="textfield-med-full" color="white" id="txtWelcome" right="8%" text="STEFAN" textAlign="Ti.UI.TEXT_ALIGNMENT_RIGHT" top="35%"/>
@@ -23,8 +23,22 @@
                 <ImageView class="db-settings db2" onClick=""/>
             </View>
         </View>
-        <View height="10%" top="90%">
+      <View height="12%" top="88%">
             <ImageView class="dojo-bottom" top="0%"/>
+            <Button class="icon qa-btn" onClick="showQuickActions">+</Button>
         </View>
+        <OptionDialog id="quickActions" title="Quick Actions">
+            <Options>
+                <Option>Create Project</Option>
+                <Option>Create Tag</Option>
+                <Option>Create Contact</Option>
+                <Option>Send Messages</Option>
+                <Option>Invite Others</Option>
+                <Option platform="ios">Cancel</Option>
+            </Options>
+            <ButtonNames>
+                <ButtonName>Cancel</ButtonName>
+            </ButtonNames>
+        </OptionDialog>
     </Window>
 </Alloy>
