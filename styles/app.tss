@@ -250,6 +250,10 @@
 	"width": Ti.UI.FILL,
 	"height": "1"
 },
+".separator": {
+	"height": "1",
+	"backgroundColor": "#e6e6e6"
+},
 ".icon": {
 	"font": {fontFamily:'fontawesome',fontSize:20}
 },
