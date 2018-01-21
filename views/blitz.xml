@@ -1,0 +1,35 @@
+<Alloy>
+	<Window title="Text Blitz" class="bg-white">
+	    <View class="vgroup">
+            <View backgroundColor="#e6e6e6" class="top" height="5%">
+                <Label class="h5" color="#444444" left="5%" text="TO" top="15%"/>
+            </View>
+            <!--Button leads to contact list to choose contacts-->
+            <View height="9%">
+                 <Button left="5%">Add Contacts</Button>
+            </View>
+            
+            <View backgroundColor="#e6e6e6" class="top" height="5%">
+                <Label class="h5" color="#444444" left="5%" text="TAGS" top="15%"/>
+            </View>
+            <!--Button leads to tagList to choose tags-->
+            <View height="9%">
+                <Button left="5%">Add Tags</Button>
+            </View>
+            <View backgroundColor="#e6e6e6" class="top" height="5%">
+                <Label class="h5" color="#444444" left="5%" text="PROJECTS" top="15%"/>
+            </View>
+            <!--Button leads to tagList to choose tags-->
+            <View height="9%">
+                <Button left="5%">Add Projects</Button>
+            </View>
+            <View backgroundColor="#e6e6e6" class="top" height="5%"></View>
+              <!--Empty space to display added contacts and tags
+                  - this should probably stay within the main vgroup View for easier display
+                    
+              -->
+         </View>
+         <!--Button should always remain in this bottom position-->
+         <Button bottom="20" class="btn-main btn-warning">Compose Message</Button>
+	</Window>
+</Alloy>

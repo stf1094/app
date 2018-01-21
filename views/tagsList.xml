@@ -1,0 +1,21 @@
+<Alloy>
+	<Window class="bg-white" id="Window_1" title="Tags List">
+    <View class="vgroup">
+    	<Button class="btn-main btn-warning bottom-buffer" top="20">Add Tags</Button>
+	<TableView class="top-buffer">
+	      <TableViewRow class="selectionList-row">
+              <Label class="h4 selection-label">TIR</Label>
+              <Switch class="selection-switch" value="false"/> 
+         </TableViewRow>
+         <TableViewRow class="selectionList-row">
+              <Label class="h4 selection-label">NASCAR</Label>
+              <Switch class="selection-switch" value="false"/> 
+         </TableViewRow>
+         <TableViewRow class="selectionList-row">
+             <Label class="h4 selection-label">FISHING</Label>
+             <Switch class="selection-switch" value="false"/> 
+         </TableViewRow>
+	</TableView>
+	</View>
+	</Window>
+</Alloy>

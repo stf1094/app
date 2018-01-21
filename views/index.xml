@@ -4,7 +4,7 @@
     <Require id="androidDB" platform="android,windows" src="dashboard"/>
     <!-- iOS Window -->
     <NavigationWindow class="container" id="nav" platform="ios">
-        <Require src="login"/>
+        <Require src="settings"/>
     </NavigationWindow>
     <NavigationWindow class="container" id="iosDB" platform="ios">
         <Require src="dashboard"/>

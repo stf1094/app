@@ -1,0 +1,21 @@
+<Alloy>
+	<Window class="bg-white" id="Window_1" title="Projects List">
+    <View class="vgroup">
+    	<Button class="btn-main btn-warning bottom-buffer" top="20">Add Projects</Button>
+	<TableView class="top-buffer">
+	      <TableViewRow class="selectionList-row">
+              <Label class="h4 selection-label">Project 1</Label>
+              <Switch class="selection-switch" value="false"/> 
+         </TableViewRow>
+         <TableViewRow class="selectionList-row">
+              <Label class="h4 selection-label">Project 2</Label>
+              <Switch class="selection-switch" value="false"/> 
+         </TableViewRow>
+         <TableViewRow class="selectionList-row">
+             <Label class="h4 selection-label">Project 3</Label>
+             <Switch class="selection-switch" value="false"/> 
+         </TableViewRow>
+	</TableView>
+	</View>
+	</Window>
+</Alloy>

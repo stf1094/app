@@ -1,0 +1,14 @@
+<Alloy>
+	<Window title="Blitz Message" class="bg-white">
+	 <View class="vgroup">
+       <!-- <View backgroundColor="#e6e6e6" class="top" height="5%">
+            <Label class="h5" color="#444444" left="5%" text="MESSAGE" top="15%"/>
+     </View>-->
+      <View backgroundColor="#e6e6e6" class="top" height="5%"></View>
+        <TextArea class="h4" top="20" height="64%" width="90%"></TextArea>
+        <View backgroundColor="#e6e6e6" class="top" height="5%"></View>
+    </View>
+    <Button class="btn-main btn-warning" bottom="20">Send</Button>
+    <Button class="btn-main btn-info-outline" bottom="75">Schedule</Button>
+	</Window>
+</Alloy>

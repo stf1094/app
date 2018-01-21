@@ -941,6 +941,42 @@
 	"borderRadius": "10",
 	"color": "#ffffff"
 },
+".btn-main": {
+	"left": "5%",
+	"width": "90%",
+	"height": "6.75%",
+	"borderRadius": "10",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".btn-main[platform=ios formFactor=tablet]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "90px",
+	"borderRadius": "10",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+
+".btn-main[platform=android]": {
+	"left": "5%",
+	"width": "90%",
+	"height": "8%",
+	"borderRadius": "10",
+	"font": {fontSize:'',fontFamily:'',fontStyle:'',fontWeight:'bold'}
+},
+".btn-warning": {
+	"backgroundColor": "#f7941d",
+	"color": "white"
+},
+".btn-info-outline": {
+	"color": "#193441",
+	"borderWidth": "2",
+	"borderColor": "#193441",
+	"backgroundColor": "white"
+},
+
+".white": {
+	"color": "#fff"
+},
 ".h1[platform=android]": {
 	"font": {fontSize:36},
 	"color": "black"
@@ -996,4 +1032,28 @@
 ".submit-btn": {
 	"left": "68%",
 	"color": "black"
-}
+},
+
+/* Selection List (selecting tags, projects, etc from a list)*/
+".selectionList-row": {
+	"height": "100px"
+},
+".selectionList-row[platform=android]": {
+	"height": "150px",
+	"backgroundColor": "#f2f2f2"
+},
+".selection-label": {
+	"left": "5%",
+	"top": "12"
+},
+".selection-label[platform=android]": {
+	"top": "6"
+},
+".selection-switch": {
+	"right": "5%",
+	"top": "10"
+},
+".selection-switch[platform=android]": {
+	"top": "6"
+},
+
